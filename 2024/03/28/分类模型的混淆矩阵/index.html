@@ -1,0 +1,689 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" data-default-color-scheme=auto>
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/fluid.png">
+  <link rel="icon" href="/img/fluid.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="author" content="John Doe">
+  <meta name="keywords" content="">
+  
+    <meta name="description" content="深度学习之图像分类（一）分类模型的混淆矩阵今天开始学习深度学习图像分类模型Backbone理论知识，首先学习分类模型的混淆矩阵，学习视频源于 Bilibili。  1. 混淆矩阵混淆矩阵是评判模型结果的一种指标，属于模型评估的一部分，常用语评判分类模型的优劣。图中左下角为混淆矩阵的一个示例，横坐标为 True Label，纵坐标为 Predicted Label。混淆矩阵每一行对应着预测属于该类的">
+<meta property="og:type" content="article">
+<meta property="og:title" content="深度学习之图像分类（一）-- 分类模型的混淆矩阵">
+<meta property="og:url" content="http://example.com/2024/03/28/%E5%88%86%E7%B1%BB%E6%A8%A1%E5%9E%8B%E7%9A%84%E6%B7%B7%E6%B7%86%E7%9F%A9%E9%98%B5/index.html">
+<meta property="og:site_name" content="太阳">
+<meta property="og:description" content="深度学习之图像分类（一）分类模型的混淆矩阵今天开始学习深度学习图像分类模型Backbone理论知识，首先学习分类模型的混淆矩阵，学习视频源于 Bilibili。  1. 混淆矩阵混淆矩阵是评判模型结果的一种指标，属于模型评估的一部分，常用语评判分类模型的优劣。图中左下角为混淆矩阵的一个示例，横坐标为 True Label，纵坐标为 Predicted Label。混淆矩阵每一行对应着预测属于该类的">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://example.com/images/matrix-5.png">
+<meta property="og:image" content="http://example.com/images/matrix-0.png">
+<meta property="og:image" content="http://example.com/images/matrix-1.png">
+<meta property="og:image" content="http://example.com/images/matrix-2.png">
+<meta property="og:image" content="http://example.com/images/matrix-3.png">
+<meta property="og:image" content="http://example.com/images/matrix-4.png">
+<meta property="article:published_time" content="2024-03-28T07:17:11.000Z">
+<meta property="article:modified_time" content="2024-03-28T07:22:06.970Z">
+<meta property="article:author" content="John Doe">
+<meta property="article:tag" content="原创">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://example.com/images/matrix-5.png">
+  
+  
+  
+  <title>深度学习之图像分类（一）-- 分类模型的混淆矩阵 - 太阳</title>
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
+
+
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/github-markdown-css/4.0.0/github-markdown.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/hint.css/2.7.0/hint.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.css" />
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+<!-- Do not modify the link that theme dependent icons -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_hj8rtnfg7um.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_lbnruvf0jn.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+
+  <link id="highlight-css" rel="stylesheet" href="/css/highlight.css" />
+  
+    <link id="highlight-css-dark" rel="stylesheet" href="/css/highlight-dark.css" />
+  
+
+
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    Fluid.ctx = Object.assign({}, Fluid.ctx)
+    var CONFIG = {"hostname":"example.com","root":"/","version":"1.9.7","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml","include_content_in_search":true};
+
+    if (CONFIG.web_analytics.follow_dnt) {
+      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));
+    }
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+  
+
+
+  
+<meta name="generator" content="Hexo 7.1.1"></head>
+
+
+<body>
+  
+
+  <header>
+    
+
+<div class="header-inner" style="height: 70vh;">
+  <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <strong>太阳</strong>
+    </a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/" target="_self">
+                <i class="iconfont icon-home-fill"></i>
+                <span>首页</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/" target="_self">
+                <i class="iconfont icon-archive-fill"></i>
+                <span>归档</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/" target="_self">
+                <i class="iconfont icon-category-fill"></i>
+                <span>分类</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/" target="_self">
+                <i class="iconfont icon-tags-fill"></i>
+                <span>标签</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/" target="_self">
+                <i class="iconfont icon-user-fill"></i>
+                <span>关于</span>
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              <i class="iconfont icon-search"></i>
+            </a>
+          </li>
+          
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">
+              <i class="iconfont icon-dark" id="color-toggle-icon"></i>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  
+
+<div id="banner" class="banner" parallax=true
+     style="background: url('/img/default.png') no-repeat center center; background-size: cover;">
+  <div class="full-bg-img">
+    <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+      <div class="banner-text text-center fade-in-up">
+        <div class="h2">
+          
+            <span id="subtitle" data-typed-text="深度学习之图像分类（一）-- 分类模型的混淆矩阵"></span>
+          
+        </div>
+
+        
+          
+  <div class="mt-3">
+    
+    
+      <span class="post-meta">
+        <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+        <time datetime="2024-03-28 15:17" pubdate>
+          2024年3月28日 下午
+        </time>
+      </span>
+    
+  </div>
+
+  <div class="mt-1">
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-chart"></i>
+        
+          1.4k 字
+        
+      </span>
+    
+
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-clock-fill"></i>
+        
+        
+        
+          12 分钟
+        
+      </span>
+    
+
+    
+    
+  </div>
+
+
+        
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+</div>
+
+  </header>
+
+  <main>
+    
+      
+
+<div class="container-fluid nopadding-x">
+  <div class="row nomargin-x">
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+
+    </div>
+
+    <div class="col-lg-8 nopadding-x-md">
+      <div class="container nopadding-x-md" id="board-ctn">
+        <div id="board">
+          <article class="post-content mx-auto">
+            <h1 id="seo-header">深度学习之图像分类（一）-- 分类模型的混淆矩阵</h1>
+            
+            
+              <div class="markdown-body">
+                
+                <h2 id="深度学习之图像分类（一）分类模型的混淆矩阵"><a href="#深度学习之图像分类（一）分类模型的混淆矩阵" class="headerlink" title="深度学习之图像分类（一）分类模型的混淆矩阵"></a>深度学习之图像分类（一）分类模型的混淆矩阵</h2><p>今天开始学习深度学习图像分类模型Backbone理论知识，首先学习分类模型的混淆矩阵，学习视频源于 <a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1GV411C7AW">Bilibili</a>。</p>
+<p><img src="/images/matrix-5.png" srcset="/img/loading.gif" lazyload alt="img5"></p>
+<h3 id="1-混淆矩阵"><a href="#1-混淆矩阵" class="headerlink" title="1. 混淆矩阵"></a>1. 混淆矩阵</h3><p>混淆矩阵是评判模型结果的一种指标，属于模型评估的一部分，常用语评判分类模型的优劣。图中左下角为混淆矩阵的一个示例，横坐标为 True Label，纵坐标为 Predicted Label。混淆矩阵每一行对应着预测属于该类的所有样本，混淆矩阵的对角线表示预测正确的样本个数。希望网络预测过程中，将预测类别分布在对角线上。预测值在对角线上分布越密集，则表现模型性能越好。通过混淆矩阵还容易看出模型对于哪些类别容易分类出错。</p>
+<p>利用混淆矩阵可以算出精确率，召回率和特异度，这三个指标是对于每个类别得到的结果。注意到，精确率和准确率 Accuracy 是不一样的。准确率是使用所有预测正确样本的个数除以所有样本数量之和。</p>
+<p><img src="/images/matrix-0.png" srcset="/img/loading.gif" lazyload alt="img0"></p>
+<h4 id="1-1-二分类混淆矩阵"><a href="#1-1-二分类混淆矩阵" class="headerlink" title="1.1 二分类混淆矩阵"></a>1.1 二分类混淆矩阵</h4><p>我们首先以二分类混淆矩阵作为讲解。首先每一列表示真实值的标签，每一列表示预测值的标签。Positive 为正样本，Negative 为负样本。此时我们可以有四种分类：</p>
+<ul>
+<li>真实值为 Positive，预测值为 Positive，标记为 TP</li>
+<li>真实值为 Positive，预测值为 Negative，标记为 FN    — 假阴性</li>
+<li>真实值为 Negative，预测值为 Positive，标记为 FP     — 假阳性</li>
+<li>真实值为 Negative，预测值为 Negative，标记为 TN</li>
+</ul>
+<p>TP 和 TN 都对应着网络预测正确的部分，FP 和 FN 对应着网络预测错误的部分。所以我们期望 TP 和 TN 越大越好，而 FP 和 FN 越小越好。</p>
+<p><img src="/images/matrix-1.png" srcset="/img/loading.gif" lazyload alt="img1"></p>
+<p>有了 TP、FN、FP、TN 的概念后，我们就可以引入准确率 (Acc, Accuracy)、精确率 (PPV, Positive Predictive Value)、召回率 (TPR, True Positive Rate) 以及特异度 (TNR, True Negative Rate)。注意到，准确率是对所有样本而言的，精确率召回率以及特异度是对于每个类别而言的。计算公式如下表所示：</p>
+<ul>
+<li>准确率 Acc: 模型正确分类样本数占总样本数的比例（所有类别）</li>
+<li>精确率 PPV: 模型预测的所有 positive 中，预测正确的比例</li>
+<li>召回率 TPR: 所有真实 positive 中，模型预测正确的 positive 比例</li>
+<li>特异度 TNR: 所有真实 negative 中，模型预测正确的 negative 比例</li>
+</ul>
+<p><img src="/images/matrix-2.png" srcset="/img/loading.gif" lazyload alt="img2"></p>
+<h4 id="1-2-混淆矩阵计算实例"><a href="#1-2-混淆矩阵计算实例" class="headerlink" title="1.2 混淆矩阵计算实例"></a>1.2 混淆矩阵计算实例</h4><p>下图给出了一个计算指标的实例，以猫狗猪三分类为例。准确率计算结果如下所示：</p>
+<p><img src="/images/matrix-3.png" srcset="/img/loading.gif" lazyload alt="img3"></p>
+<p>为了算针对 <code>猫</code> 类别的精确率召回率以及特异度，我们统一将狗和猪融合为不为猫的情况。精确率 Precision &#x3D; 10 &#x2F; (10 + 3) &#x3D; 0.77，同样的能算出召回率 Recall &#x3D; 10 &#x2F; (10 + 8) &#x3D; 0.56，特异度 Sepcificity &#x3D; 45 &#x2F; (45 + 3) &#x3D; 0.94。</p>
+<p><img src="/images/matrix-4.png" srcset="/img/loading.gif" lazyload alt="img4"></p>
+<h3 id="2-混淆矩阵代码"><a href="#2-混淆矩阵代码" class="headerlink" title="2. 混淆矩阵代码"></a>2. 混淆矩阵代码</h3><p>完整代码详见 <a target="_blank" rel="noopener" href="https://github.com/WZMIAOMIAO/deep-learning-for-image-processing/tree/master/pytorch_classification/ConfusionMatrix">此处</a>。</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-keyword">import</span> os<br><span class="hljs-keyword">import</span> json<br><br><span class="hljs-keyword">import</span> torch<br><span class="hljs-keyword">from</span> torchvision <span class="hljs-keyword">import</span> transforms, datasets<br><span class="hljs-keyword">import</span> numpy <span class="hljs-keyword">as</span> np				<span class="hljs-comment"># 用 numpy 实现，目的是 pytorch 和 tensorflow 的框架都能使用，label.numpy()</span><br><span class="hljs-keyword">from</span> tqdm <span class="hljs-keyword">import</span> tqdm<br><span class="hljs-keyword">import</span> matplotlib.pyplot <span class="hljs-keyword">as</span> plt<br><span class="hljs-keyword">from</span> prettytable <span class="hljs-keyword">import</span> PrettyTable<br><br><span class="hljs-keyword">class</span> <span class="hljs-title class_">ConfusionMatrix</span>(<span class="hljs-title class_ inherited__">object</span>):<br>    <span class="hljs-string">&quot;&quot;&quot;</span><br><span class="hljs-string">    注意，如果显示的图像不全，是matplotlib版本问题</span><br><span class="hljs-string">    本例程使用matplotlib-3.2.1(windows and ubuntu)绘制正常</span><br><span class="hljs-string">    需要额外安装prettytable库: pip install prettytable</span><br><span class="hljs-string">    &quot;&quot;&quot;</span><br>    <span class="hljs-keyword">def</span> <span class="hljs-title function_">__init__</span>(<span class="hljs-params">self, num_classes: <span class="hljs-built_in">int</span>, labels: <span class="hljs-built_in">list</span></span>):<br>        self.matrix = np.zeros((num_classes, num_classes))	<span class="hljs-comment"># 初始化混淆矩阵</span><br>        self.num_classes = num_classes<br>        self.labels = labels<br><br>    <span class="hljs-comment"># 混淆矩阵更新</span><br>    <span class="hljs-keyword">def</span> <span class="hljs-title function_">update</span>(<span class="hljs-params">self, preds, labels</span>):<br>        <span class="hljs-keyword">for</span> p, t <span class="hljs-keyword">in</span> <span class="hljs-built_in">zip</span>(preds, labels):<br>            self.matrix[p, t] += <span class="hljs-number">1</span><br><br>    <span class="hljs-comment"># 计算并打印评价指标</span><br>    <span class="hljs-keyword">def</span> <span class="hljs-title function_">summary</span>(<span class="hljs-params">self</span>):<br>        <span class="hljs-comment"># calculate accuracy</span><br>        sum_TP = <span class="hljs-number">0</span><br>        <span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> <span class="hljs-built_in">range</span>(self.num_classes):<br>            sum_TP += self.matrix[i, i]				<span class="hljs-comment"># 对角线元素求和</span><br>        acc = sum_TP / np.<span class="hljs-built_in">sum</span>(self.matrix)<br>        <span class="hljs-built_in">print</span>(<span class="hljs-string">&quot;the model accuracy is &quot;</span>, acc)<br><br>        <span class="hljs-comment"># precision, recall, specificity</span><br>        table = PrettyTable()<br>        table.field_names = [<span class="hljs-string">&quot;&quot;</span>, <span class="hljs-string">&quot;Precision&quot;</span>, <span class="hljs-string">&quot;Recall&quot;</span>, <span class="hljs-string">&quot;Specificity&quot;</span>]	<span class="hljs-comment"># 第一个元素是类别标签</span><br>        <span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> <span class="hljs-built_in">range</span>(self.num_classes):			<span class="hljs-comment"># 针对每个类别进行计算</span><br>            <span class="hljs-comment"># 整合其他行列为不属于该类的情况</span><br>            TP = self.matrix[i, i]<br>            FP = np.<span class="hljs-built_in">sum</span>(self.matrix[i, :]) - TP<br>            FN = np.<span class="hljs-built_in">sum</span>(self.matrix[:, i]) - TP<br>            TN = np.<span class="hljs-built_in">sum</span>(self.matrix) - TP - FP - FN<br>            Precision = <span class="hljs-built_in">round</span>(TP / (TP + FP), <span class="hljs-number">3</span>) <span class="hljs-keyword">if</span> TP + FP != <span class="hljs-number">0</span> <span class="hljs-keyword">else</span> <span class="hljs-number">0.</span>		<span class="hljs-comment"># 注意分母为 0 的情况</span><br>            Recall = <span class="hljs-built_in">round</span>(TP / (TP + FN), <span class="hljs-number">3</span>) <span class="hljs-keyword">if</span> TP + FN != <span class="hljs-number">0</span> <span class="hljs-keyword">else</span> <span class="hljs-number">0.</span><br>            Specificity = <span class="hljs-built_in">round</span>(TN / (TN + FP), <span class="hljs-number">3</span>) <span class="hljs-keyword">if</span> TN + FP != <span class="hljs-number">0</span> <span class="hljs-keyword">else</span> <span class="hljs-number">0.</span><br>            table.add_row([self.labels[i], Precision, Recall, Specificity])<br>        <span class="hljs-built_in">print</span>(table)<br><br>    <span class="hljs-comment"># 可视化混淆矩阵</span><br>    <span class="hljs-keyword">def</span> <span class="hljs-title function_">plot</span>(<span class="hljs-params">self</span>):<br>        matrix = self.matrix<br>        <span class="hljs-built_in">print</span>(matrix)<br>        plt.imshow(matrix, cmap=plt.cm.Blues)		<span class="hljs-comment"># 从白色到蓝色</span><br><br>        <span class="hljs-comment"># 设置x轴坐标label</span><br>        plt.xticks(<span class="hljs-built_in">range</span>(self.num_classes), self.labels, rotation=<span class="hljs-number">45</span>)	<span class="hljs-comment"># x 轴标签旋转 45 度方便展示</span><br>        <span class="hljs-comment"># 设置y轴坐标label</span><br>        plt.yticks(<span class="hljs-built_in">range</span>(self.num_classes), self.labels)<br>        <span class="hljs-comment"># 显示colorbar</span><br>        plt.colorbar()<br>        plt.xlabel(<span class="hljs-string">&#x27;True Labels&#x27;</span>)<br>        plt.ylabel(<span class="hljs-string">&#x27;Predicted Labels&#x27;</span>)<br>        plt.title(<span class="hljs-string">&#x27;Confusion matrix&#x27;</span>)<br><br>        <span class="hljs-comment"># 在图中标注数量/概率信息</span><br>        thresh = matrix.<span class="hljs-built_in">max</span>() / <span class="hljs-number">2</span><br>        <span class="hljs-keyword">for</span> x <span class="hljs-keyword">in</span> <span class="hljs-built_in">range</span>(self.num_classes):<br>            <span class="hljs-keyword">for</span> y <span class="hljs-keyword">in</span> <span class="hljs-built_in">range</span>(self.num_classes):<br>                <span class="hljs-comment"># 注意这里的matrix[y, x]不是matrix[x, y]</span><br>                <span class="hljs-comment"># 画图的时候横坐标是x，纵坐标是y</span><br>                info = <span class="hljs-built_in">int</span>(matrix[y, x])<br>                plt.text(x, y, info,<br>                         verticalalignment=<span class="hljs-string">&#x27;center&#x27;</span>,<br>                         horizontalalignment=<span class="hljs-string">&#x27;center&#x27;</span>,<br>                         color=<span class="hljs-string">&quot;white&quot;</span> <span class="hljs-keyword">if</span> info &gt; thresh <span class="hljs-keyword">else</span> <span class="hljs-string">&quot;black&quot;</span>)<br>        plt.tight_layout()		<span class="hljs-comment"># 图形显示更加紧凑</span><br>        plt.show()<br><br></code></pre></td></tr></table></figure>
+
+
+
+<h3 id="3-混淆矩阵用途"><a href="#3-混淆矩阵用途" class="headerlink" title="3. 混淆矩阵用途"></a>3. 混淆矩阵用途</h3><ul>
+<li>混淆矩阵能够帮助我们迅速可视化各种类别误分为其它类别的比重，这样能够帮我们调整后续模型，比如一些类别设置权重衰减等</li>
+<li>在一些论文的实验分析中，可以列出混淆矩阵，行和列均为 label 种类，可以通过该矩阵验证自己 model 预测复杂 label 的能力是否强于其他 model，只要自己 model 将复杂 label 误判为其它类别比其他 model 误判的少，就可以说明自己 model 预测复杂 label 的能力强于其他 model。</li>
+</ul>
+
+                
+              </div>
+            
+            <hr/>
+            <div>
+              <div class="post-metas my-3">
+  
+    <div class="post-meta mr-3 d-flex align-items-center">
+      <i class="iconfont icon-category"></i>
+      
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/" class="category-chain-item">深度学习</a>
+  
+  
+    <span>></span>
+    
+  <a href="/categories/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/%E5%9B%BE%E5%83%8F%E5%88%86%E7%B1%BB/" class="category-chain-item">图像分类</a>
+  
+  
+    <span>></span>
+    
+  <a href="/categories/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/%E5%9B%BE%E5%83%8F%E5%88%86%E7%B1%BB/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/" class="category-chain-item">基础知识</a>
+  
+  
+
+  
+
+  
+
+      </span>
+    
+  
+</span>
+
+    </div>
+  
+  
+    <div class="post-meta">
+      <i class="iconfont icon-tags"></i>
+      
+        <a href="/tags/%E5%8E%9F%E5%88%9B/" class="print-no-link">#原创</a>
+      
+    </div>
+  
+</div>
+
+
+              
+  
+
+  <div class="license-box my-3">
+    <div class="license-title">
+      <div>深度学习之图像分类（一）-- 分类模型的混淆矩阵</div>
+      <div>http://example.com/2024/03/28/分类模型的混淆矩阵/</div>
+    </div>
+    <div class="license-meta">
+      
+        <div class="license-meta-item">
+          <div>作者</div>
+          <div>John Doe</div>
+        </div>
+      
+      
+        <div class="license-meta-item license-meta-date">
+          <div>发布于</div>
+          <div>2024年3月28日</div>
+        </div>
+      
+      
+      
+        <div class="license-meta-item">
+          <div>许可协议</div>
+          <div>
+            
+              
+              
+                <a class="print-no-link" target="_blank" href="https://creativecommons.org/licenses/by/4.0/">
+                  <span class="hint--top hint--rounded" aria-label="BY - 署名">
+                    <i class="iconfont icon-by"></i>
+                  </span>
+                </a>
+              
+            
+          </div>
+        </div>
+      
+    </div>
+    <div class="license-icon iconfont"></div>
+  </div>
+
+
+
+              
+                <div class="post-prevnext my-3">
+                  <article class="post-prev col-6">
+                    
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+  <aside class="sidebar" style="margin-left: -1rem">
+    <div id="toc">
+  <p class="toc-header">
+    <i class="iconfont icon-list"></i>
+    <span>目录</span>
+  </p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
+
+
+
+  </aside>
+
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+    
+
+    
+      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v" for="local-search-input">关键词</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+  
+    <div class="footer-content">
+       <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
+    </div>
+  
+  
+  
+  
+</div>
+
+  </footer>
+
+  <!-- Scripts -->
+  
+  <script  src="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://lib.baomitu.com/jquery/3.6.4/jquery.min.js" ></script>
+<script  src="https://lib.baomitu.com/twitter-bootstrap/4.6.1/js/bootstrap.min.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+
+  <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var subtitle = document.getElementById('subtitle');
+      if (!subtitle || !typing) {
+        return;
+      }
+      var text = subtitle.getAttribute('data-typed-text');
+      
+        typing(text);
+      
+    })(window, document);
+  </script>
+
+
+
+
+  
+    <script  src="/js/img-lazyload.js" ></script>
+  
+
+
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/tocbot/4.20.1/tocbot.min.js', function() {
+    var toc = jQuery('#toc');
+    if (toc.length === 0 || !window.tocbot) { return; }
+    var boardCtn = jQuery('#board-ctn');
+    var boardTop = boardCtn.offset().top;
+
+    window.tocbot.init(Object.assign({
+      tocSelector     : '#toc-body',
+      contentSelector : '.markdown-body',
+      linkClass       : 'tocbot-link',
+      activeLinkClass : 'tocbot-active-link',
+      listClass       : 'tocbot-list',
+      isCollapsedClass: 'tocbot-is-collapsed',
+      collapsibleClass: 'tocbot-is-collapsible',
+      scrollSmooth    : true,
+      includeTitleTags: true,
+      headingsOffset  : -boardTop,
+    }, CONFIG.toc));
+    if (toc.find('.toc-list-item').length > 0) {
+      toc.css('visibility', 'visible');
+    }
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('tocbot' in window) {
+        tocbot.refresh();
+        var toc = jQuery('#toc');
+        if (toc.length === 0 || !tocbot) {
+          return;
+        }
+        if (toc.find('.toc-list-item').length > 0) {
+          toc.css('visibility', 'visible');
+        }
+      }
+    });
+  });
+</script>
+
+
+  <script src=https://lib.baomitu.com/clipboard.js/2.0.11/clipboard.min.js></script>
+
+  <script>Fluid.plugins.codeWidget();</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/anchor-js/4.3.1/anchor.min.js', function() {
+    window.anchors.options = {
+      placement: CONFIG.anchorjs.placement,
+      visible  : CONFIG.anchorjs.visible
+    };
+    if (CONFIG.anchorjs.icon) {
+      window.anchors.options.icon = CONFIG.anchorjs.icon;
+    }
+    var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+    var res = [];
+    for (var item of el) {
+      res.push('.markdown-body > ' + item.trim());
+    }
+    if (CONFIG.anchorjs.placement === 'left') {
+      window.anchors.options.class = 'anchorjs-link-left';
+    }
+    window.anchors.add(res.join(', '));
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('anchors' in window) {
+        anchors.removeAll();
+        var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+        var res = [];
+        for (var item of el) {
+          res.push('.markdown-body > ' + item.trim());
+        }
+        if (CONFIG.anchorjs.placement === 'left') {
+          anchors.options.class = 'anchorjs-link-left';
+        }
+        anchors.add(res.join(', '));
+      }
+    });
+  });
+</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.js', function() {
+    Fluid.plugins.fancyBox();
+  });
+</script>
+
+
+  <script>Fluid.plugins.imageCaption();</script>
+
+  <script  src="/js/local-search.js" ></script>
+
+
+
+
+
+<!-- 主题的启动项，将它保持在最底部 -->
+<!-- the boot of the theme, keep it at the bottom -->
+<script  src="/js/boot.js" ></script>
+
+
+  
+
+  <noscript>
+    <div class="noscript-warning">博客在允许 JavaScript 运行的环境下浏览效果更佳</div>
+  </noscript>
+</body>
+</html>
