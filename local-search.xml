@@ -4,9 +4,389 @@
   
   
   <entry>
+    <title>CycleMLP网络详解</title>
+    <link href="/2024/04/11/CycleMLP%E7%BD%91%E7%BB%9C%E8%AF%A6%E8%A7%A3/"/>
+    <url>/2024/04/11/CycleMLP%E7%BD%91%E7%BB%9C%E8%AF%A6%E8%A7%A3/</url>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>HireMLP网络详解</title>
+    <link href="/2024/04/11/HireMLP%E7%BD%91%E7%BB%9C%E8%AF%A6%E8%A7%A3/"/>
+    <url>/2024/04/11/HireMLP%E7%BD%91%E7%BB%9C%E8%AF%A6%E8%A7%A3/</url>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>SparseMLP网络详解</title>
+    <link href="/2024/04/11/SparseMLP%E7%BD%91%E7%BB%9C%E8%AF%A6%E8%A7%A3/"/>
+    <url>/2024/04/11/SparseMLP%E7%BD%91%E7%BB%9C%E8%AF%A6%E8%A7%A3/</url>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>SparseMLP-MoE网络详解</title>
+    <link href="/2024/04/11/SparseMLP-MoE%E7%BD%91%E7%BB%9C%E8%AF%A6%E8%A7%A3/"/>
+    <url>/2024/04/11/SparseMLP-MoE%E7%BD%91%E7%BB%9C%E8%AF%A6%E8%A7%A3/</url>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>ConvMLP网络详解</title>
+    <link href="/2024/04/11/ConvMLP%E7%BD%91%E7%BB%9C%E8%AF%A6%E8%A7%A3/"/>
+    <url>/2024/04/11/ConvMLP%E7%BD%91%E7%BB%9C%E8%AF%A6%E8%A7%A3/</url>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>ConvMixer网络详解</title>
+    <link href="/2024/04/11/ConvMixer%E7%BD%91%E7%BB%9C%E8%AF%A6%E8%A7%A3/"/>
+    <url>/2024/04/11/ConvMixer%E7%BD%91%E7%BB%9C%E8%AF%A6%E8%A7%A3/</url>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>S2MLPv2网络详解</title>
+    <link href="/2024/04/11/S2MLPv2%E7%BD%91%E7%BB%9C%E8%AF%A6%E8%A7%A3/"/>
+    <url>/2024/04/11/S2MLPv2%E7%BD%91%E7%BB%9C%E8%AF%A6%E8%A7%A3/</url>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>VisionPermutator网络详解</title>
+    <link href="/2024/04/11/VisionPermutator%E7%BD%91%E7%BB%9C%E8%AF%A6%E8%A7%A3/"/>
+    <url>/2024/04/11/VisionPermutator%E7%BD%91%E7%BB%9C%E8%AF%A6%E8%A7%A3/</url>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>S2MLP网络详解</title>
+    <link href="/2024/04/11/S2MLP%E7%BD%91%E7%BB%9C%E8%AF%A6%E8%A7%A3/"/>
+    <url>/2024/04/11/S2MLP%E7%BD%91%E7%BB%9C%E8%AF%A6%E8%A7%A3/</url>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>AS-MLP网络详解</title>
+    <link href="/2024/04/11/AS-MLP%E7%BD%91%E7%BB%9C%E8%AF%A6%E8%A7%A3/"/>
+    <url>/2024/04/11/AS-MLP%E7%BD%91%E7%BB%9C%E8%AF%A6%E8%A7%A3/</url>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>MLP-Mixer网络详解</title>
+    <link href="/2024/04/11/MLP-Mixer%E7%BD%91%E7%BB%9C%E8%AF%A6%E8%A7%A3/"/>
+    <url>/2024/04/11/MLP-Mixer%E7%BD%91%E7%BB%9C%E8%AF%A6%E8%A7%A3/</url>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>TransformerInTransformer_TNT网络详解</title>
+    <link href="/2024/04/11/TransformerInTransformer-TNT%E7%BD%91%E7%BB%9C%E8%AF%A6%E8%A7%A3/"/>
+    <url>/2024/04/11/TransformerInTransformer-TNT%E7%BD%91%E7%BB%9C%E8%AF%A6%E8%A7%A3/</url>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Transformer网络详解</title>
+    <link href="/2024/04/11/BottleneckTransformer%E7%BD%91%E7%BB%9C%E8%AF%A6%E8%A7%A3/"/>
+    <url>/2024/04/11/BottleneckTransformer%E7%BD%91%E7%BB%9C%E8%AF%A6%E8%A7%A3/</url>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>VisionTransformer网络详解</title>
+    <link href="/2024/04/11/VisionTransformer%E7%BD%91%E7%BB%9C%E8%AF%A6%E8%A7%A3/"/>
+    <url>/2024/04/11/VisionTransformer%E7%BD%91%E7%BB%9C%E8%AF%A6%E8%A7%A3/</url>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Attention详解</title>
+    <link href="/2024/04/11/Transformer%E7%BD%91%E7%BB%9C%E8%AF%A6%E8%A7%A3/"/>
+    <url>/2024/04/11/Transformer%E7%BD%91%E7%BB%9C%E8%AF%A6%E8%A7%A3/</url>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>EfficientNetV2网络结构</title>
+    <link href="/2024/04/11/EfficientNetV2%E7%BD%91%E7%BB%9C%E7%BB%93%E6%9E%84/"/>
+    <url>/2024/04/11/EfficientNetV2%E7%BD%91%E7%BB%9C%E7%BB%93%E6%9E%84/</url>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>网络结构</title>
+    <link href="/2024/04/11/EfficientNetV1%E7%BD%91%E7%BB%9C%E7%BB%93%E6%9E%84/"/>
+    <url>/2024/04/11/EfficientNetV1%E7%BD%91%E7%BB%9C%E7%BB%93%E6%9E%84/</url>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>ShuffleNetV2网络结构</title>
+    <link href="/2024/04/11/ShuffleNetV2%E7%BD%91%E7%BB%9C%E7%BB%93%E6%9E%84/"/>
+    <url>/2024/04/11/ShuffleNetV2%E7%BD%91%E7%BB%9C%E7%BB%93%E6%9E%84/</url>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>ShuffleNetV1网络结构</title>
+    <link href="/2024/04/11/ShuffleNetV1%E7%BD%91%E7%BB%9C%E7%BB%93%E6%9E%84/"/>
+    <url>/2024/04/11/ShuffleNetV1%E7%BD%91%E7%BB%9C%E7%BB%93%E6%9E%84/</url>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>MobileNetV3网络结构</title>
+    <link href="/2024/04/11/MobileNetV3%E7%BD%91%E7%BB%9C%E7%BB%93%E6%9E%84/"/>
+    <url>/2024/04/11/MobileNetV3%E7%BD%91%E7%BB%9C%E7%BB%93%E6%9E%84/</url>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>MobileNetV2网络结构</title>
+    <link href="/2024/04/11/MobileNetV2%E7%BD%91%E7%BB%9C%E7%BB%93%E6%9E%84/"/>
+    <url>/2024/04/11/MobileNetV2%E7%BD%91%E7%BB%9C%E7%BB%93%E6%9E%84/</url>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>MobileNetV1网络结构</title>
+    <link href="/2024/04/11/MobileNetV1%E7%BD%91%E7%BB%9C%E7%BB%93%E6%9E%84/"/>
+    <url>/2024/04/11/MobileNetV1%E7%BD%91%E7%BB%9C%E7%BB%93%E6%9E%84/</url>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>ResNeXt网络结构</title>
+    <link href="/2024/04/11/ResNeXt%E7%BD%91%E7%BB%9C%E7%BB%93%E6%9E%84/"/>
+    <url>/2024/04/11/ResNeXt%E7%BD%91%E7%BB%9C%E7%BB%93%E6%9E%84/</url>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Normalization</title>
+    <link href="/2024/04/11/BatchNormalization/"/>
+    <url>/2024/04/11/BatchNormalization/</url>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>ResNet网络结构</title>
+    <link href="/2024/04/11/ResNet%E7%BD%91%E7%BB%9C%E7%BB%93%E6%9E%84/"/>
+    <url>/2024/04/11/ResNet%E7%BD%91%E7%BB%9C%E7%BB%93%E6%9E%84/</url>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Inception进化史</title>
+    <link href="/2024/04/11/Inception%E8%BF%9B%E5%8C%96%E5%8F%B2/"/>
+    <url>/2024/04/11/Inception%E8%BF%9B%E5%8C%96%E5%8F%B2/</url>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>GoogLeNet网络结构</title>
+    <link href="/2024/04/11/GoogLeNet%E7%BD%91%E7%BB%9C%E7%BB%93%E6%9E%84/"/>
+    <url>/2024/04/11/GoogLeNet%E7%BD%91%E7%BB%9C%E7%BB%93%E6%9E%84/</url>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>深度学习之图像分类（一）-- 分类模型的混淆矩阵</title>
+    <link href="/2024/03/28/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B9%8B%E5%9B%BE%E5%83%8F%E5%88%86%E7%B1%BB%EF%BC%881%EF%BC%89--%20%E5%88%86%E7%B1%BB%E6%A8%A1%E5%9E%8B%E7%9A%84%E6%B7%B7%E6%B7%86%E7%9F%A9%E9%98%B5/"/>
+    <url>/2024/03/28/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B9%8B%E5%9B%BE%E5%83%8F%E5%88%86%E7%B1%BB%EF%BC%881%EF%BC%89--%20%E5%88%86%E7%B1%BB%E6%A8%A1%E5%9E%8B%E7%9A%84%E6%B7%B7%E6%B7%86%E7%9F%A9%E9%98%B5/</url>
+    
+    <content type="html"><![CDATA[<h2 id="深度学习之图像分类（一）分类模型的混淆矩阵"><a href="#深度学习之图像分类（一）分类模型的混淆矩阵" class="headerlink" title="深度学习之图像分类（一）分类模型的混淆矩阵"></a>深度学习之图像分类（一）分类模型的混淆矩阵</h2><p>今天开始学习深度学习图像分类模型Backbone理论知识，首先学习分类模型的混淆矩阵，学习视频源于 <a href="https://www.bilibili.com/video/BV1GV411C7AW">Bilibili</a>。</p><p><img src="/images/classify/base/matrix-5.png" alt="img5"></p><h3 id="1-混淆矩阵"><a href="#1-混淆矩阵" class="headerlink" title="1. 混淆矩阵"></a>1. 混淆矩阵</h3><p>混淆矩阵是评判模型结果的一种指标，属于模型评估的一部分，常用语评判分类模型的优劣。图中左下角为混淆矩阵的一个示例，横坐标为 True Label，纵坐标为 Predicted Label。混淆矩阵每一行对应着预测属于该类的所有样本，混淆矩阵的对角线表示预测正确的样本个数。希望网络预测过程中，将预测类别分布在对角线上。预测值在对角线上分布越密集，则表现模型性能越好。通过混淆矩阵还容易看出模型对于哪些类别容易分类出错。</p><p>利用混淆矩阵可以算出精确率，召回率和特异度，这三个指标是对于每个类别得到的结果。注意到，精确率和准确率 Accuracy 是不一样的。准确率是使用所有预测正确样本的个数除以所有样本数量之和。</p><p><img src="/images/classify/base/matrix-0.png" alt="img0"></p><h4 id="1-1-二分类混淆矩阵"><a href="#1-1-二分类混淆矩阵" class="headerlink" title="1.1 二分类混淆矩阵"></a>1.1 二分类混淆矩阵</h4><p>我们首先以二分类混淆矩阵作为讲解。首先每一列表示真实值的标签，每一列表示预测值的标签。Positive 为正样本，Negative 为负样本。此时我们可以有四种分类：</p><ul><li>真实值为 Positive，预测值为 Positive，标记为 TP</li><li>真实值为 Positive，预测值为 Negative，标记为 FN    — 假阴性</li><li>真实值为 Negative，预测值为 Positive，标记为 FP     — 假阳性</li><li>真实值为 Negative，预测值为 Negative，标记为 TN</li></ul><p>TP 和 TN 都对应着网络预测正确的部分，FP 和 FN 对应着网络预测错误的部分。所以我们期望 TP 和 TN 越大越好，而 FP 和 FN 越小越好。</p><p><img src="/images/classify/base/matrix-1.png" alt="img1"></p><p>有了 TP、FN、FP、TN 的概念后，我们就可以引入准确率 (Acc, Accuracy)、精确率 (PPV, Positive Predictive Value)、召回率 (TPR, True Positive Rate) 以及特异度 (TNR, True Negative Rate)。注意到，准确率是对所有样本而言的，精确率召回率以及特异度是对于每个类别而言的。计算公式如下表所示：</p><ul><li>准确率 Acc: 模型正确分类样本数占总样本数的比例（所有类别）</li><li>精确率 PPV: 模型预测的所有 positive 中，预测正确的比例</li><li>召回率 TPR: 所有真实 positive 中，模型预测正确的 positive 比例</li><li>特异度 TNR: 所有真实 negative 中，模型预测正确的 negative 比例</li></ul><p><img src="/images/classify/base/matrix-2.png" alt="img2"></p><h4 id="1-2-混淆矩阵计算实例"><a href="#1-2-混淆矩阵计算实例" class="headerlink" title="1.2 混淆矩阵计算实例"></a>1.2 混淆矩阵计算实例</h4><p>下图给出了一个计算指标的实例，以猫狗猪三分类为例。准确率计算结果如下所示：</p><p><img src="/images/classify/base/matrix-3.png" alt="img3"></p><p>为了算针对 <code>猫</code> 类别的精确率召回率以及特异度，我们统一将狗和猪融合为不为猫的情况。精确率 Precision &#x3D; 10 &#x2F; (10 + 3) &#x3D; 0.77，同样的能算出召回率 Recall &#x3D; 10 &#x2F; (10 + 8) &#x3D; 0.56，特异度 Sepcificity &#x3D; 45 &#x2F; (45 + 3) &#x3D; 0.94。</p><p><img src="/images/classify/base/matrix-4.png" alt="img4"></p><h3 id="2-混淆矩阵代码"><a href="#2-混淆矩阵代码" class="headerlink" title="2. 混淆矩阵代码"></a>2. 混淆矩阵代码</h3><p>完整代码详见 <a href="https://github.com/WZMIAOMIAO/deep-learning-for-image-processing/tree/master/pytorch_classification/ConfusionMatrix">此处</a>。</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-keyword">import</span> os<br><span class="hljs-keyword">import</span> json<br><br><span class="hljs-keyword">import</span> torch<br><span class="hljs-keyword">from</span> torchvision <span class="hljs-keyword">import</span> transforms, datasets<br><span class="hljs-keyword">import</span> numpy <span class="hljs-keyword">as</span> np<span class="hljs-comment"># 用 numpy 实现，目的是 pytorch 和 tensorflow 的框架都能使用，label.numpy()</span><br><span class="hljs-keyword">from</span> tqdm <span class="hljs-keyword">import</span> tqdm<br><span class="hljs-keyword">import</span> matplotlib.pyplot <span class="hljs-keyword">as</span> plt<br><span class="hljs-keyword">from</span> prettytable <span class="hljs-keyword">import</span> PrettyTable<br><br><span class="hljs-keyword">class</span> <span class="hljs-title class_">ConfusionMatrix</span>(<span class="hljs-title class_ inherited__">object</span>):<br>    <span class="hljs-string">&quot;&quot;&quot;</span><br><span class="hljs-string">    注意，如果显示的图像不全，是matplotlib版本问题</span><br><span class="hljs-string">    本例程使用matplotlib-3.2.1(windows and ubuntu)绘制正常</span><br><span class="hljs-string">    需要额外安装prettytable库: pip install prettytable</span><br><span class="hljs-string">    &quot;&quot;&quot;</span><br>    <span class="hljs-keyword">def</span> <span class="hljs-title function_">__init__</span>(<span class="hljs-params">self, num_classes: <span class="hljs-built_in">int</span>, labels: <span class="hljs-built_in">list</span></span>):<br>        self.matrix = np.zeros((num_classes, num_classes))<span class="hljs-comment"># 初始化混淆矩阵</span><br>        self.num_classes = num_classes<br>        self.labels = labels<br><br>    <span class="hljs-comment"># 混淆矩阵更新</span><br>    <span class="hljs-keyword">def</span> <span class="hljs-title function_">update</span>(<span class="hljs-params">self, preds, labels</span>):<br>        <span class="hljs-keyword">for</span> p, t <span class="hljs-keyword">in</span> <span class="hljs-built_in">zip</span>(preds, labels):<br>            self.matrix[p, t] += <span class="hljs-number">1</span><br><br>    <span class="hljs-comment"># 计算并打印评价指标</span><br>    <span class="hljs-keyword">def</span> <span class="hljs-title function_">summary</span>(<span class="hljs-params">self</span>):<br>        <span class="hljs-comment"># calculate accuracy</span><br>        sum_TP = <span class="hljs-number">0</span><br>        <span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> <span class="hljs-built_in">range</span>(self.num_classes):<br>            sum_TP += self.matrix[i, i]<span class="hljs-comment"># 对角线元素求和</span><br>        acc = sum_TP / np.<span class="hljs-built_in">sum</span>(self.matrix)<br>        <span class="hljs-built_in">print</span>(<span class="hljs-string">&quot;the model accuracy is &quot;</span>, acc)<br><br>        <span class="hljs-comment"># precision, recall, specificity</span><br>        table = PrettyTable()<br>        table.field_names = [<span class="hljs-string">&quot;&quot;</span>, <span class="hljs-string">&quot;Precision&quot;</span>, <span class="hljs-string">&quot;Recall&quot;</span>, <span class="hljs-string">&quot;Specificity&quot;</span>]<span class="hljs-comment"># 第一个元素是类别标签</span><br>        <span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> <span class="hljs-built_in">range</span>(self.num_classes):<span class="hljs-comment"># 针对每个类别进行计算</span><br>            <span class="hljs-comment"># 整合其他行列为不属于该类的情况</span><br>            TP = self.matrix[i, i]<br>            FP = np.<span class="hljs-built_in">sum</span>(self.matrix[i, :]) - TP<br>            FN = np.<span class="hljs-built_in">sum</span>(self.matrix[:, i]) - TP<br>            TN = np.<span class="hljs-built_in">sum</span>(self.matrix) - TP - FP - FN<br>            Precision = <span class="hljs-built_in">round</span>(TP / (TP + FP), <span class="hljs-number">3</span>) <span class="hljs-keyword">if</span> TP + FP != <span class="hljs-number">0</span> <span class="hljs-keyword">else</span> <span class="hljs-number">0.</span><span class="hljs-comment"># 注意分母为 0 的情况</span><br>            Recall = <span class="hljs-built_in">round</span>(TP / (TP + FN), <span class="hljs-number">3</span>) <span class="hljs-keyword">if</span> TP + FN != <span class="hljs-number">0</span> <span class="hljs-keyword">else</span> <span class="hljs-number">0.</span><br>            Specificity = <span class="hljs-built_in">round</span>(TN / (TN + FP), <span class="hljs-number">3</span>) <span class="hljs-keyword">if</span> TN + FP != <span class="hljs-number">0</span> <span class="hljs-keyword">else</span> <span class="hljs-number">0.</span><br>            table.add_row([self.labels[i], Precision, Recall, Specificity])<br>        <span class="hljs-built_in">print</span>(table)<br><br>    <span class="hljs-comment"># 可视化混淆矩阵</span><br>    <span class="hljs-keyword">def</span> <span class="hljs-title function_">plot</span>(<span class="hljs-params">self</span>):<br>        matrix = self.matrix<br>        <span class="hljs-built_in">print</span>(matrix)<br>        plt.imshow(matrix, cmap=plt.cm.Blues)<span class="hljs-comment"># 从白色到蓝色</span><br><br>        <span class="hljs-comment"># 设置x轴坐标label</span><br>        plt.xticks(<span class="hljs-built_in">range</span>(self.num_classes), self.labels, rotation=<span class="hljs-number">45</span>)<span class="hljs-comment"># x 轴标签旋转 45 度方便展示</span><br>        <span class="hljs-comment"># 设置y轴坐标label</span><br>        plt.yticks(<span class="hljs-built_in">range</span>(self.num_classes), self.labels)<br>        <span class="hljs-comment"># 显示colorbar</span><br>        plt.colorbar()<br>        plt.xlabel(<span class="hljs-string">&#x27;True Labels&#x27;</span>)<br>        plt.ylabel(<span class="hljs-string">&#x27;Predicted Labels&#x27;</span>)<br>        plt.title(<span class="hljs-string">&#x27;Confusion matrix&#x27;</span>)<br><br>        <span class="hljs-comment"># 在图中标注数量/概率信息</span><br>        thresh = matrix.<span class="hljs-built_in">max</span>() / <span class="hljs-number">2</span><br>        <span class="hljs-keyword">for</span> x <span class="hljs-keyword">in</span> <span class="hljs-built_in">range</span>(self.num_classes):<br>            <span class="hljs-keyword">for</span> y <span class="hljs-keyword">in</span> <span class="hljs-built_in">range</span>(self.num_classes):<br>                <span class="hljs-comment"># 注意这里的matrix[y, x]不是matrix[x, y]</span><br>                <span class="hljs-comment"># 画图的时候横坐标是x，纵坐标是y</span><br>                info = <span class="hljs-built_in">int</span>(matrix[y, x])<br>                plt.text(x, y, info,<br>                         verticalalignment=<span class="hljs-string">&#x27;center&#x27;</span>,<br>                         horizontalalignment=<span class="hljs-string">&#x27;center&#x27;</span>,<br>                         color=<span class="hljs-string">&quot;white&quot;</span> <span class="hljs-keyword">if</span> info &gt; thresh <span class="hljs-keyword">else</span> <span class="hljs-string">&quot;black&quot;</span>)<br>        plt.tight_layout()<span class="hljs-comment"># 图形显示更加紧凑</span><br>        plt.show()<br><br></code></pre></td></tr></table></figure><h3 id="3-混淆矩阵用途"><a href="#3-混淆矩阵用途" class="headerlink" title="3. 混淆矩阵用途"></a>3. 混淆矩阵用途</h3><ul><li>混淆矩阵能够帮助我们迅速可视化各种类别误分为其它类别的比重，这样能够帮我们调整后续模型，比如一些类别设置权重衰减等</li><li>在一些论文的实验分析中，可以列出混淆矩阵，行和列均为 label 种类，可以通过该矩阵验证自己 model 预测复杂 label 的能力是否强于其他 model，只要自己 model 将复杂 label 误判为其它类别比其他 model 误判的少，就可以说明自己 model 预测复杂 label 的能力强于其他 model。</li></ul>]]></content>
+    
+    
+    <categories>
+      
+      <category>深度学习</category>
+      
+      <category>图像分类</category>
+      
+      <category>基础知识</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>原创</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>深度学习之图像分类（二）-- pytorch查看中间层特征矩阵以及卷积核参数</title>
-    <link href="/2024/03/28/pytorch%E6%9F%A5%E7%9C%8B%E4%B8%AD%E9%97%B4%E5%B1%82%E7%89%B9%E5%BE%81%E7%9F%A9%E9%98%B5%E4%BB%A5%E5%8F%8A%E5%8D%B7%E7%A7%AF%E6%A0%B8%E5%8F%82%E6%95%B0/"/>
-    <url>/2024/03/28/pytorch%E6%9F%A5%E7%9C%8B%E4%B8%AD%E9%97%B4%E5%B1%82%E7%89%B9%E5%BE%81%E7%9F%A9%E9%98%B5%E4%BB%A5%E5%8F%8A%E5%8D%B7%E7%A7%AF%E6%A0%B8%E5%8F%82%E6%95%B0/</url>
+    <link href="/2024/03/28/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B9%8B%E5%9B%BE%E5%83%8F%E5%88%86%E7%B1%BB%EF%BC%882%EF%BC%89--%20pytorch%E6%9F%A5%E7%9C%8B%E4%B8%AD%E9%97%B4%E5%B1%82%E7%89%B9%E5%BE%81%E7%9F%A9%E9%98%B5%E4%BB%A5%E5%8F%8A%E5%8D%B7%E7%A7%AF%E6%A0%B8%E5%8F%82%E6%95%B0/"/>
+    <url>/2024/03/28/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B9%8B%E5%9B%BE%E5%83%8F%E5%88%86%E7%B1%BB%EF%BC%882%EF%BC%89--%20pytorch%E6%9F%A5%E7%9C%8B%E4%B8%AD%E9%97%B4%E5%B1%82%E7%89%B9%E5%BE%81%E7%9F%A9%E9%98%B5%E4%BB%A5%E5%8F%8A%E5%8D%B7%E7%A7%AF%E6%A0%B8%E5%8F%82%E6%95%B0/</url>
     
     <content type="html"><![CDATA[<h2 id="深度学习之图像分类（二）pytorch查看中间层特征矩阵以及卷积核参数"><a href="#深度学习之图像分类（二）pytorch查看中间层特征矩阵以及卷积核参数" class="headerlink" title="深度学习之图像分类（二）pytorch查看中间层特征矩阵以及卷积核参数"></a>深度学习之图像分类（二）pytorch查看中间层特征矩阵以及卷积核参数</h2><p>在开始学习深度学习图像分类模型Backbone理论知识之前，先看看如何在 pytorch 框架中查看中间层特征矩阵以及卷积核参数，学习视频源于 <a href="https://www.bilibili.com/video/BV1z7411f7za">Bilibili</a>。</p><p>耳听为虚，眼见为实！可视化 feature maps 以及 kernel weights 在论文展示中非常重要，同时对于个人分析神经网络学习的特性也至关重要。本文学习的完整代码详见 <a href="https://github.com/WZMIAOMIAO/deep-learning-for-image-processing/tree/master/pytorch_classification/analyze_weights_featuremap">此处</a>。</p><h3 id="1-可视化-feature-maps"><a href="#1-可视化-feature-maps" class="headerlink" title="1. 可视化 feature maps"></a>1. 可视化 feature maps</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-keyword">import</span> torch<br><span class="hljs-keyword">from</span> alexnet_model <span class="hljs-keyword">import</span> AlexNet<br><span class="hljs-keyword">from</span> resnet_model <span class="hljs-keyword">import</span> resnet34<br><span class="hljs-keyword">import</span> matplotlib.pyplot <span class="hljs-keyword">as</span> plt<br><span class="hljs-keyword">import</span> numpy <span class="hljs-keyword">as</span> np<br><span class="hljs-keyword">from</span> PIL <span class="hljs-keyword">import</span> Image<br><span class="hljs-keyword">from</span> torchvision <span class="hljs-keyword">import</span> transforms<br><br><span class="hljs-string">&quot;&quot;&quot;</span><br><span class="hljs-string">class AlexNet(nn.Module):</span><br><span class="hljs-string">...</span><br><span class="hljs-string"></span><br><span class="hljs-string">def forward(self, x):</span><br><span class="hljs-string"># 存储网络中间结果</span><br><span class="hljs-string">        outputs = []</span><br><span class="hljs-string">        for name, module in self.features.named_children():</span><br><span class="hljs-string">            x = module(x)</span><br><span class="hljs-string">            if name in [&quot;0&quot;, &quot;3&quot;, &quot;6&quot;]:</span><br><span class="hljs-string">                outputs.append(x)</span><br><span class="hljs-string"></span><br><span class="hljs-string"># 网络正向传播过程返回的是中间结果</span><br><span class="hljs-string">        return outputs</span><br><span class="hljs-string">&quot;&quot;&quot;</span><br><br><span class="hljs-comment"># 与训练过程保持一致</span><br>data_transform = transforms.Compose(<br>    [transforms.Resize((<span class="hljs-number">224</span>, <span class="hljs-number">224</span>)),<br>     transforms.ToTensor(),<br>     transforms.Normalize((<span class="hljs-number">0.5</span>, <span class="hljs-number">0.5</span>, <span class="hljs-number">0.5</span>), (<span class="hljs-number">0.5</span>, <span class="hljs-number">0.5</span>, <span class="hljs-number">0.5</span>))])<br><br><span class="hljs-comment"># data_transform = transforms.Compose(</span><br><span class="hljs-comment">#     [transforms.Resize(256),</span><br><span class="hljs-comment">#      transforms.CenterCrop(224),</span><br><span class="hljs-comment">#      transforms.ToTensor(),</span><br><span class="hljs-comment">#      transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])])</span><br><br><span class="hljs-comment"># create model</span><br>model = AlexNet(num_classes=<span class="hljs-number">5</span>)<br><span class="hljs-comment"># model = resnet34(num_classes=5)</span><br><span class="hljs-comment"># load model weights</span><br>model_weight_path = <span class="hljs-string">&quot;./AlexNet.pth&quot;</span>  <span class="hljs-comment"># &quot;./resNet34.pth&quot;</span><br>model.load_state_dict(torch.load(model_weight_path))<br><span class="hljs-built_in">print</span>(model)<br><br><span class="hljs-comment"># load image</span><br>img = Image.<span class="hljs-built_in">open</span>(<span class="hljs-string">&quot;../tulip.jpg&quot;</span>)<br><span class="hljs-comment"># [N, C, H, W]</span><br>img = data_transform(img)<br><span class="hljs-comment"># expand batch dimension</span><br>img = torch.unsqueeze(img, dim=<span class="hljs-number">0</span>)<span class="hljs-comment"># 增加一个 batch 维度</span><br><br><span class="hljs-comment"># forward</span><br>out_put = model(img)<br><span class="hljs-keyword">for</span> feature_map <span class="hljs-keyword">in</span> out_put:<span class="hljs-comment"># 使用 AlexNet 的话，out_put 是一个 list，有三个元素</span><br>    <span class="hljs-comment"># [N, C, H, W] -&gt; [C, H, W]</span><br>    im = np.squeeze(feature_map.detach().numpy())<span class="hljs-comment"># 只输入了一张图，squeeze 压缩掉 batch 维度，detach() 去除梯度信息</span><br>    <span class="hljs-comment"># [C, H, W] -&gt; [H, W, C]</span><br>    im = np.transpose(im, [<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">0</span>])<br><br>    <span class="hljs-comment"># show top 12 feature maps</span><br>    plt.figure()<br>    <span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> <span class="hljs-built_in">range</span>(<span class="hljs-number">12</span>):<br>        ax = plt.subplot(<span class="hljs-number">3</span>, <span class="hljs-number">4</span>, i+<span class="hljs-number">1</span>)<br>        <span class="hljs-comment"># [H, W, C]</span><br>        <span class="hljs-comment"># 我们特征矩阵每一个 channel 所对应的是一个二维的特征矩阵，就像灰度图一样，channel = 1</span><br>        <span class="hljs-comment"># 如果不指定 cmap=&#x27;gray&#x27; 默认是以蓝色和绿色替换黑色和白色</span><br>        plt.imshow(im[:, :, i], cmap=<span class="hljs-string">&#x27;gray&#x27;</span>)<br>    plt.show()<br><br></code></pre></td></tr></table></figure><p>以 AlexNet 为例，下图展示了测试的原始图片：</p><p><img src="/images/classify/base/featuremap-0.png" alt="img0"></p><p>下图打印了第一个卷积层计算得到的前 12 个通道的特征图，每个特征图的切片中可以通过明暗程度来理解卷积层 1 所关注的信息，其中越亮的地方就是卷积核越感兴趣的地方。通过对比原图发现，由于这是卷积层 1 输出的特征矩阵，所以基本还是能看出一些原始图的信息。</p><p><img src="/images/classify/base/featuremap-1.png" alt="img1"></p><p>卷积层 2 输出的信息如下所示，由于越往后，抽象程度越高，所以越来越不像所看到的花了。另外有些卷积核没有起到什么作用的，卷积之后得到的特征矩阵都是黑色的，说明根本就没有学到什么有用的信息。</p><p><img src="/images/classify/base/featuremap-2.png" alt="img2"></p><p>如果之前不增加 <code>cmap=&#39;gray&#39;</code> 的话，图片如下所示：</p><p><img src="/images/classify/base/featuremap-3.png" alt="img3"></p><p>相比而言，使用 ResNet 得到的结果则更好，第一个卷积层输出结果可见它检测到了纹理信息，以及高亮部分展示了花朵等等。ResNet 的 layer 1 输出的特征图结果也比 AlexNet 很多全黑的要好。可能有两个原因造成这种情况，首先是 ResNet 本身比 AlexNet 要好；其次则是 ResNet 使用了迁移学习，用了 ImageNet 预训练的权重来训练的。</p><p><img src="/images/classify/base/featuremap-4.png" alt="img4"></p><p><img src="/images/classify/base/featuremap-5.png" alt="img5"></p><p><strong>哦豁，如果想看全连接层的输出特征矩阵怎么办呢？</strong></p><h3 id="2-可视化-kernel-weights"><a href="#2-可视化-kernel-weights" class="headerlink" title="2. 可视化 kernel weights"></a>2. 可视化 kernel weights</h3><p>同样以 AlexNet 和 ResNet 为例。</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-keyword">import</span> torch<br><span class="hljs-keyword">from</span> alexnet_model <span class="hljs-keyword">import</span> AlexNet<br><span class="hljs-keyword">from</span> resnet_model <span class="hljs-keyword">import</span> resnet34<br><span class="hljs-keyword">import</span> matplotlib.pyplot <span class="hljs-keyword">as</span> plt<br><span class="hljs-keyword">import</span> numpy <span class="hljs-keyword">as</span> np<br><br><br><span class="hljs-comment"># create model</span><br>model = AlexNet(num_classes=<span class="hljs-number">5</span>)<br><span class="hljs-comment"># model = resnet34(num_classes=5)</span><br><span class="hljs-comment"># load model weights</span><br>model_weight_path = <span class="hljs-string">&quot;./AlexNet.pth&quot;</span>  <span class="hljs-comment"># &quot;resNet34.pth&quot;</span><br>model.load_state_dict(torch.load(model_weight_path))<br><span class="hljs-built_in">print</span>(model)<br><br><span class="hljs-comment"># model.state_dict() 获取模型所有的可训练参数的字典；.keys() 获取名称</span><br>weights_keys = model.state_dict().keys()<br><span class="hljs-keyword">for</span> key <span class="hljs-keyword">in</span> weights_keys:<br>    <span class="hljs-comment"># remove num_batches_tracked para(in bn)</span><br>    <span class="hljs-keyword">if</span> <span class="hljs-string">&quot;num_batches_tracked&quot;</span> <span class="hljs-keyword">in</span> key:<br>        <span class="hljs-keyword">continue</span><br>  <br>    <span class="hljs-comment"># [kernel_number, kernel_channel, kernel_height, kernel_width]</span><br>    <span class="hljs-comment"># 输出深度，输入深度，卷积核高，卷积核宽</span><br>    weight_t = model.state_dict()[key].numpy()<br><br>    <span class="hljs-comment"># read a kernel information</span><br>    <span class="hljs-comment"># k = weight_t[0, :, :, :]# 读取第一个卷积核</span><br><br>    <span class="hljs-comment"># calculate mean, std, min, max</span><br>    <span class="hljs-comment"># 计算均值，标准差，最大值和最小值。</span><br>    weight_mean = weight_t.mean()<br>    weight_std = weight_t.std(ddof=<span class="hljs-number">1</span>)<br>    weight_min = weight_t.<span class="hljs-built_in">min</span>()<br>    weight_max = weight_t.<span class="hljs-built_in">max</span>()<br>    <span class="hljs-built_in">print</span>(<span class="hljs-string">&quot;mean is &#123;&#125;, std is &#123;&#125;, min is &#123;&#125;, max is &#123;&#125;&quot;</span>.<span class="hljs-built_in">format</span>(weight_mean,<br>                                                               weight_std,<br>                                                               weight_max,<br>                                                               weight_min))<br><br>    <span class="hljs-comment"># plot hist image</span><br>    plt.close()<br>    weight_vec = np.reshape(weight_t, [-<span class="hljs-number">1</span>])<span class="hljs-comment"># 卷积核权重展成一维的向量 --- 原始卷积核太小了就3x3</span><br>    plt.hist(weight_vec, bins=<span class="hljs-number">50</span>)<span class="hljs-comment"># 统计卷积核权重值直方图的分布</span><br>    plt.title(key)<br>    plt.show()<br></code></pre></td></tr></table></figure><p>下图展示了卷积层 1 的权重以及 bias 的分布。</p><p><img src="/images/classify/base/kernel-1.png" alt="img6"></p><p><img src="/images/classify/base/kernel-2.png" alt="img7"></p><p>（有时候能看到，很多卷积核参数都是 0…）</p>]]></content>
     
@@ -33,11 +413,11 @@
   
   
   <entry>
-    <title>深度学习之图像分类（一）-- 分类模型的混淆矩阵</title>
-    <link href="/2024/03/28/%E5%88%86%E7%B1%BB%E6%A8%A1%E5%9E%8B%E7%9A%84%E6%B7%B7%E6%B7%86%E7%9F%A9%E9%98%B5/"/>
-    <url>/2024/03/28/%E5%88%86%E7%B1%BB%E6%A8%A1%E5%9E%8B%E7%9A%84%E6%B7%B7%E6%B7%86%E7%9F%A9%E9%98%B5/</url>
+    <title>深度学习之图像分类（三）-- AlexNet网络结构</title>
+    <link href="/2024/03/28/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B9%8B%E5%9B%BE%E5%83%8F%E5%88%86%E7%B1%BB%EF%BC%883%EF%BC%89--%20AlexNet%E7%BD%91%E7%BB%9C%E7%BB%93%E6%9E%84/"/>
+    <url>/2024/03/28/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B9%8B%E5%9B%BE%E5%83%8F%E5%88%86%E7%B1%BB%EF%BC%883%EF%BC%89--%20AlexNet%E7%BD%91%E7%BB%9C%E7%BB%93%E6%9E%84/</url>
     
-    <content type="html"><![CDATA[<h2 id="深度学习之图像分类（一）分类模型的混淆矩阵"><a href="#深度学习之图像分类（一）分类模型的混淆矩阵" class="headerlink" title="深度学习之图像分类（一）分类模型的混淆矩阵"></a>深度学习之图像分类（一）分类模型的混淆矩阵</h2><p>今天开始学习深度学习图像分类模型Backbone理论知识，首先学习分类模型的混淆矩阵，学习视频源于 <a href="https://www.bilibili.com/video/BV1GV411C7AW">Bilibili</a>。</p><p><img src="/images/classify/base/matrix-5.png" alt="img5"></p><h3 id="1-混淆矩阵"><a href="#1-混淆矩阵" class="headerlink" title="1. 混淆矩阵"></a>1. 混淆矩阵</h3><p>混淆矩阵是评判模型结果的一种指标，属于模型评估的一部分，常用语评判分类模型的优劣。图中左下角为混淆矩阵的一个示例，横坐标为 True Label，纵坐标为 Predicted Label。混淆矩阵每一行对应着预测属于该类的所有样本，混淆矩阵的对角线表示预测正确的样本个数。希望网络预测过程中，将预测类别分布在对角线上。预测值在对角线上分布越密集，则表现模型性能越好。通过混淆矩阵还容易看出模型对于哪些类别容易分类出错。</p><p>利用混淆矩阵可以算出精确率，召回率和特异度，这三个指标是对于每个类别得到的结果。注意到，精确率和准确率 Accuracy 是不一样的。准确率是使用所有预测正确样本的个数除以所有样本数量之和。</p><p><img src="/images/classify/base/matrix-0.png" alt="img0"></p><h4 id="1-1-二分类混淆矩阵"><a href="#1-1-二分类混淆矩阵" class="headerlink" title="1.1 二分类混淆矩阵"></a>1.1 二分类混淆矩阵</h4><p>我们首先以二分类混淆矩阵作为讲解。首先每一列表示真实值的标签，每一列表示预测值的标签。Positive 为正样本，Negative 为负样本。此时我们可以有四种分类：</p><ul><li>真实值为 Positive，预测值为 Positive，标记为 TP</li><li>真实值为 Positive，预测值为 Negative，标记为 FN    — 假阴性</li><li>真实值为 Negative，预测值为 Positive，标记为 FP     — 假阳性</li><li>真实值为 Negative，预测值为 Negative，标记为 TN</li></ul><p>TP 和 TN 都对应着网络预测正确的部分，FP 和 FN 对应着网络预测错误的部分。所以我们期望 TP 和 TN 越大越好，而 FP 和 FN 越小越好。</p><p><img src="/images/classify/base/matrix-1.png" alt="img1"></p><p>有了 TP、FN、FP、TN 的概念后，我们就可以引入准确率 (Acc, Accuracy)、精确率 (PPV, Positive Predictive Value)、召回率 (TPR, True Positive Rate) 以及特异度 (TNR, True Negative Rate)。注意到，准确率是对所有样本而言的，精确率召回率以及特异度是对于每个类别而言的。计算公式如下表所示：</p><ul><li>准确率 Acc: 模型正确分类样本数占总样本数的比例（所有类别）</li><li>精确率 PPV: 模型预测的所有 positive 中，预测正确的比例</li><li>召回率 TPR: 所有真实 positive 中，模型预测正确的 positive 比例</li><li>特异度 TNR: 所有真实 negative 中，模型预测正确的 negative 比例</li></ul><p><img src="/images/classify/base/matrix-2.png" alt="img2"></p><h4 id="1-2-混淆矩阵计算实例"><a href="#1-2-混淆矩阵计算实例" class="headerlink" title="1.2 混淆矩阵计算实例"></a>1.2 混淆矩阵计算实例</h4><p>下图给出了一个计算指标的实例，以猫狗猪三分类为例。准确率计算结果如下所示：</p><p><img src="/images/classify/base/matrix-3.png" alt="img3"></p><p>为了算针对 <code>猫</code> 类别的精确率召回率以及特异度，我们统一将狗和猪融合为不为猫的情况。精确率 Precision &#x3D; 10 &#x2F; (10 + 3) &#x3D; 0.77，同样的能算出召回率 Recall &#x3D; 10 &#x2F; (10 + 8) &#x3D; 0.56，特异度 Sepcificity &#x3D; 45 &#x2F; (45 + 3) &#x3D; 0.94。</p><p><img src="/images/classify/base/matrix-4.png" alt="img4"></p><h3 id="2-混淆矩阵代码"><a href="#2-混淆矩阵代码" class="headerlink" title="2. 混淆矩阵代码"></a>2. 混淆矩阵代码</h3><p>完整代码详见 <a href="https://github.com/WZMIAOMIAO/deep-learning-for-image-processing/tree/master/pytorch_classification/ConfusionMatrix">此处</a>。</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-keyword">import</span> os<br><span class="hljs-keyword">import</span> json<br><br><span class="hljs-keyword">import</span> torch<br><span class="hljs-keyword">from</span> torchvision <span class="hljs-keyword">import</span> transforms, datasets<br><span class="hljs-keyword">import</span> numpy <span class="hljs-keyword">as</span> np<span class="hljs-comment"># 用 numpy 实现，目的是 pytorch 和 tensorflow 的框架都能使用，label.numpy()</span><br><span class="hljs-keyword">from</span> tqdm <span class="hljs-keyword">import</span> tqdm<br><span class="hljs-keyword">import</span> matplotlib.pyplot <span class="hljs-keyword">as</span> plt<br><span class="hljs-keyword">from</span> prettytable <span class="hljs-keyword">import</span> PrettyTable<br><br><span class="hljs-keyword">class</span> <span class="hljs-title class_">ConfusionMatrix</span>(<span class="hljs-title class_ inherited__">object</span>):<br>    <span class="hljs-string">&quot;&quot;&quot;</span><br><span class="hljs-string">    注意，如果显示的图像不全，是matplotlib版本问题</span><br><span class="hljs-string">    本例程使用matplotlib-3.2.1(windows and ubuntu)绘制正常</span><br><span class="hljs-string">    需要额外安装prettytable库: pip install prettytable</span><br><span class="hljs-string">    &quot;&quot;&quot;</span><br>    <span class="hljs-keyword">def</span> <span class="hljs-title function_">__init__</span>(<span class="hljs-params">self, num_classes: <span class="hljs-built_in">int</span>, labels: <span class="hljs-built_in">list</span></span>):<br>        self.matrix = np.zeros((num_classes, num_classes))<span class="hljs-comment"># 初始化混淆矩阵</span><br>        self.num_classes = num_classes<br>        self.labels = labels<br><br>    <span class="hljs-comment"># 混淆矩阵更新</span><br>    <span class="hljs-keyword">def</span> <span class="hljs-title function_">update</span>(<span class="hljs-params">self, preds, labels</span>):<br>        <span class="hljs-keyword">for</span> p, t <span class="hljs-keyword">in</span> <span class="hljs-built_in">zip</span>(preds, labels):<br>            self.matrix[p, t] += <span class="hljs-number">1</span><br><br>    <span class="hljs-comment"># 计算并打印评价指标</span><br>    <span class="hljs-keyword">def</span> <span class="hljs-title function_">summary</span>(<span class="hljs-params">self</span>):<br>        <span class="hljs-comment"># calculate accuracy</span><br>        sum_TP = <span class="hljs-number">0</span><br>        <span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> <span class="hljs-built_in">range</span>(self.num_classes):<br>            sum_TP += self.matrix[i, i]<span class="hljs-comment"># 对角线元素求和</span><br>        acc = sum_TP / np.<span class="hljs-built_in">sum</span>(self.matrix)<br>        <span class="hljs-built_in">print</span>(<span class="hljs-string">&quot;the model accuracy is &quot;</span>, acc)<br><br>        <span class="hljs-comment"># precision, recall, specificity</span><br>        table = PrettyTable()<br>        table.field_names = [<span class="hljs-string">&quot;&quot;</span>, <span class="hljs-string">&quot;Precision&quot;</span>, <span class="hljs-string">&quot;Recall&quot;</span>, <span class="hljs-string">&quot;Specificity&quot;</span>]<span class="hljs-comment"># 第一个元素是类别标签</span><br>        <span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> <span class="hljs-built_in">range</span>(self.num_classes):<span class="hljs-comment"># 针对每个类别进行计算</span><br>            <span class="hljs-comment"># 整合其他行列为不属于该类的情况</span><br>            TP = self.matrix[i, i]<br>            FP = np.<span class="hljs-built_in">sum</span>(self.matrix[i, :]) - TP<br>            FN = np.<span class="hljs-built_in">sum</span>(self.matrix[:, i]) - TP<br>            TN = np.<span class="hljs-built_in">sum</span>(self.matrix) - TP - FP - FN<br>            Precision = <span class="hljs-built_in">round</span>(TP / (TP + FP), <span class="hljs-number">3</span>) <span class="hljs-keyword">if</span> TP + FP != <span class="hljs-number">0</span> <span class="hljs-keyword">else</span> <span class="hljs-number">0.</span><span class="hljs-comment"># 注意分母为 0 的情况</span><br>            Recall = <span class="hljs-built_in">round</span>(TP / (TP + FN), <span class="hljs-number">3</span>) <span class="hljs-keyword">if</span> TP + FN != <span class="hljs-number">0</span> <span class="hljs-keyword">else</span> <span class="hljs-number">0.</span><br>            Specificity = <span class="hljs-built_in">round</span>(TN / (TN + FP), <span class="hljs-number">3</span>) <span class="hljs-keyword">if</span> TN + FP != <span class="hljs-number">0</span> <span class="hljs-keyword">else</span> <span class="hljs-number">0.</span><br>            table.add_row([self.labels[i], Precision, Recall, Specificity])<br>        <span class="hljs-built_in">print</span>(table)<br><br>    <span class="hljs-comment"># 可视化混淆矩阵</span><br>    <span class="hljs-keyword">def</span> <span class="hljs-title function_">plot</span>(<span class="hljs-params">self</span>):<br>        matrix = self.matrix<br>        <span class="hljs-built_in">print</span>(matrix)<br>        plt.imshow(matrix, cmap=plt.cm.Blues)<span class="hljs-comment"># 从白色到蓝色</span><br><br>        <span class="hljs-comment"># 设置x轴坐标label</span><br>        plt.xticks(<span class="hljs-built_in">range</span>(self.num_classes), self.labels, rotation=<span class="hljs-number">45</span>)<span class="hljs-comment"># x 轴标签旋转 45 度方便展示</span><br>        <span class="hljs-comment"># 设置y轴坐标label</span><br>        plt.yticks(<span class="hljs-built_in">range</span>(self.num_classes), self.labels)<br>        <span class="hljs-comment"># 显示colorbar</span><br>        plt.colorbar()<br>        plt.xlabel(<span class="hljs-string">&#x27;True Labels&#x27;</span>)<br>        plt.ylabel(<span class="hljs-string">&#x27;Predicted Labels&#x27;</span>)<br>        plt.title(<span class="hljs-string">&#x27;Confusion matrix&#x27;</span>)<br><br>        <span class="hljs-comment"># 在图中标注数量/概率信息</span><br>        thresh = matrix.<span class="hljs-built_in">max</span>() / <span class="hljs-number">2</span><br>        <span class="hljs-keyword">for</span> x <span class="hljs-keyword">in</span> <span class="hljs-built_in">range</span>(self.num_classes):<br>            <span class="hljs-keyword">for</span> y <span class="hljs-keyword">in</span> <span class="hljs-built_in">range</span>(self.num_classes):<br>                <span class="hljs-comment"># 注意这里的matrix[y, x]不是matrix[x, y]</span><br>                <span class="hljs-comment"># 画图的时候横坐标是x，纵坐标是y</span><br>                info = <span class="hljs-built_in">int</span>(matrix[y, x])<br>                plt.text(x, y, info,<br>                         verticalalignment=<span class="hljs-string">&#x27;center&#x27;</span>,<br>                         horizontalalignment=<span class="hljs-string">&#x27;center&#x27;</span>,<br>                         color=<span class="hljs-string">&quot;white&quot;</span> <span class="hljs-keyword">if</span> info &gt; thresh <span class="hljs-keyword">else</span> <span class="hljs-string">&quot;black&quot;</span>)<br>        plt.tight_layout()<span class="hljs-comment"># 图形显示更加紧凑</span><br>        plt.show()<br><br></code></pre></td></tr></table></figure><h3 id="3-混淆矩阵用途"><a href="#3-混淆矩阵用途" class="headerlink" title="3. 混淆矩阵用途"></a>3. 混淆矩阵用途</h3><ul><li>混淆矩阵能够帮助我们迅速可视化各种类别误分为其它类别的比重，这样能够帮我们调整后续模型，比如一些类别设置权重衰减等</li><li>在一些论文的实验分析中，可以列出混淆矩阵，行和列均为 label 种类，可以通过该矩阵验证自己 model 预测复杂 label 的能力是否强于其他 model，只要自己 model 将复杂 label 误判为其它类别比其他 model 误判的少，就可以说明自己 model 预测复杂 label 的能力强于其他 model。</li></ul>]]></content>
+    <content type="html"><![CDATA[<h2 id="深度学习之图像分类（三）AlexNet网络结构"><a href="#深度学习之图像分类（三）AlexNet网络结构" class="headerlink" title="深度学习之图像分类（三）AlexNet网络结构"></a>深度学习之图像分类（三）AlexNet网络结构</h2><p>从本节开始，将逐个讲述图像分类模型的发展历程，首个就是 AlexNet，学习视频源于 <a href="https://www.bilibili.com/video/BV1p7411T7Pc">Bilibili</a>。</p><p><img src="/images/classify/network/alexnet/AlexNet-0.png" alt="img0"></p><h3 id="1-前言"><a href="#1-前言" class="headerlink" title="1. 前言"></a>1. 前言</h3><p>AlexNet 是 2012 年 ISLVRC2012 (Image Large Scale Visual Recognition Challenge) 竞赛的冠军网络，原始论文为 <a href="https://proceedings.neurips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf">ImageNet Classification with Deep Convolutional Neural Networks</a>。当时传统算法已经达到性能瓶颈，然而 AlexNet 将分类准确率由传统的 70%+ 提升到 80%+。它是由 Hinton 和他的学生 Alex Krizhevsky 设计的。也就是在那年之后，每年的 ImageNet LSVRC 挑战赛都被深度学习模型霸占着榜首，深度学习开始迅速发展。</p><p>ISLVRC2012 包括以下三部分：</p><ul><li>训练集：1281167 张已标注图片</li><li>验证集：50000 张已标注图片</li><li>测试集：100000 张未标注图片</li></ul><p>它有以下几个亮点：</p><ul><li>首次使用 GPU 进行网络加速训练<ul><li>1998年的 LeNet 受限于硬件没有引起重</li><li>尽管当初使用了 GPU，但是他们用 5-6 天训练了这个模型，并且限制了网络的大小</li></ul></li><li>使用了 ReLU 激活函数，而不是传统的 Sigmoid 激活函数以及 Tanh 激活函数<ul><li>Sigmoid 等激活函数求导比较麻烦</li><li>Sigmoid 等激活函数当网络比较深的时候会出现梯度消失</li></ul></li><li>使用了 LRN 局部响应归一化</li><li>使用了数据增强</li><li>在全连接层的前两层中使用了 Dropout 随机失活神经元操作，以减少过拟合现象<ul><li>使用 Dropout 的方式在网络正向传播过程中随机失活一部分神经元</li></ul></li></ul><p><img src="/images/classify/network/alexnet/AlexNet-2.png" alt="img2"></p><p>在具体讲解网络结构之前，补充卷积公式。经过卷积后的矩阵尺寸大小计算公式为：$N &#x3D; (W - F + 2 P) &#x2F; S + 1$。</p><ul><li>输入图片大小为 $W \times W$</li><li>卷积核 Filter 大小为 $F \times F$</li><li>步长 stride 为 $S$</li><li>(半边) padding 的像素数为 $P$</li></ul><h3 id="2-网络结构"><a href="#2-网络结构" class="headerlink" title="2. 网络结构"></a>2. 网络结构</h3><p>AlexNet 网络结构如下所示：</p><p><img src="/images/classify/network/alexnet/AlexNet-1.png" alt="img1"></p><p>因为原作者使用两块 GPU 并行训练，所以画了一摸一样的两行，其实我们看其中一行就可以了。网络第一层可以看到，原始图像为 $224 \times 224 \times 3$ 的 RGB 彩色图像。网络第一层为 $11 \times 11$ 大小卷积核的卷积层，卷积核个数为 96。第一层卷积之后的输出为 $55 \times 55 \times 96$，所以我们可以反推出 padding &#x3D; [1, 2]，左边上边加一列 0，右边下边加两列 0。</p><p><img src="/images/classify/network/alexnet/AlexNet-3.png" alt="img3"></p><p>然后就是经过了一个 Maxpooling 层，kernel size 为 $3 \times 3$，padding &#x3D; 0，stride &#x3D; 2。此后的输出就是 $27 \times 27 \times 96$。（原始论文并没有提到 padding 和 stride 这些细节，但是看官方实现可以了解到）</p><p><img src="/images/classify/network/alexnet/AlexNet-4.png" alt="img4"></p><p>然后又是一个卷积层，输出通道为 256，kernel size 为 5，padding 为  [2,2]，stride &#x3D; 1。可以计算得到输出特征图为 $27 \times 27 \times 256$。</p><p><img src="/images/classify/network/alexnet/AlexNet-5.png" alt="img5"></p><p>然后就是经过了一个 Maxpooling 层，kernel size 为 $3 \times 3$，padding &#x3D; 0，stride &#x3D; 2。此后的输出就是 $13 \times 13 \times 256$。</p><p><img src="/images/classify/network/alexnet/AlexNet-6.png" alt="img6"></p><p>接下来是第三个卷积层，输出通道为 384，kernel size 为 $3 \times 3$，padding &#x3D; 1，stride &#x3D; 1，也就是保大小的卷积。输出特征图为 $13 \times 13 \times 384$。</p><p><img src="/images/classify/network/alexnet/AlexNet-7.png" alt="img7"></p><p>第四个卷积层和第三个卷积层是一模一样的，只不过输入通道从 256 变成了 384。输出特征图为 $13 \times 13 \times 384$。</p><p><img src="/images/classify/network/alexnet/AlexNet-8.png" alt="img8"></p><p>第五个卷积层输出通道为 256，kernel size 为 $3 \times 3$，padding &#x3D; 1，stride &#x3D; 1，也是保大小的卷积。输出特征图为 $13 \times 13 \times 256$。</p><p><img src="/images/classify/network/alexnet/AlexNet-9.png" alt="img9"></p><p>之后经过了一个 Maxpooling 层，kernel size 为 $3 \times 3$，padding &#x3D; 0，stride &#x3D; 2。此后的输出就是 $6 \times 6 \times 256$。</p><p><img src="/images/classify/network/alexnet/AlexNet-10.png" alt="img10"></p><p>此后就展平特征图，经过两个 4096 个节点的全连接层，最后再通过一个 1000 个节点（ImageNet 是 1000 分类）的全连接层获得输出就可以了。注意到，所有卷积层后面其实都接了一个激活函数 ReLU 层。在全连接层的前两层中使用了 Dropout 随机失活神经元操作。</p><h3 id="3-其他细节"><a href="#3-其他细节" class="headerlink" title="3. 其他细节"></a>3. 其他细节</h3><p>本章节参考博文 <a href="https://blog.csdn.net/luoluonuoyasuolong/article/details/81750190">深入理解AlexNet网络</a>，并加入了部分个人理解。</p><h4 id="3-1-Local-Response-Normalization-局部响应归一化"><a href="#3-1-Local-Response-Normalization-局部响应归一化" class="headerlink" title="3.1 Local Response Normalization (局部响应归一化)"></a>3.1 Local Response Normalization (局部响应归一化)</h4><p>在神经网络中，我们用激活函数将神经元的输出做一个非线性映射，但是 tanh 和 sigmoid 这些传统的激活函数的值域都是有范围的，但是 ReLU 激活函数得到的值域没有一个区间，所以要对 ReLU 得到的结果进行归一化。也就是 Local Response Normalization。局部响应归一化的方法如下面的公式：<br>$$<br>b_{(x, y)}^{i}&#x3D;\frac{a_{(x, y)}^{i}}{\left(k+\alpha \sum_{j&#x3D;\max (0, i-n &#x2F; 2)}^{\min (N-1, i+n &#x2F; 2)}\left(a_{(x, y)}^{j}\right)^{2}\right)^{\beta}}<br>$$<br>在公式中，$a^i_{(x,y)}$ 代表的是 ReLU 在第 i 个 kernel 的 (x, y) 位置的输出，n 表示的是，$a^i_{(x,y)}$ 的邻居个数，N 表示该 kernel 的总数量。$b^i_{(x,y)}$ 表示的是 LRN 的结果。ReLU 输出的结果和它周围一定范围的邻居做一个局部的归一化，这里有点类似域我们的最大最小归一化，即假设有一个向量 $X &#x3D; [x_1, x_2, …,x_n]$，那么将所有的数归一化到 0-1 之间的归一化规则是 $x_i &#x3D; (x_i - x_{min}) &#x2F; (x_{max} - x_{min})$。而上面的式子则是在通道层面进行归一化，有一些其他的参数 $\alpha, \beta, k$。论文中说在验证集中确定，最终确定的结果为：$k &#x3D; 2 , n &#x3D; 5 , \alpha &#x3D; 10^{-4}, \beta &#x3D; 0.75$。</p><p><img src="/images/classify/network/alexnet/AlexNet-12.png" alt="img12"></p><p>上图，每一个矩形表示的一个卷积核生成的 feature map。所有的元素已经经过了 ReLU 激活函数，现在我们都要对具体的 pixel 进行局部的归一化。假设绿色箭头指向的是第 i 个 kernel 对应的特征图，其余的四个蓝色箭头是它周围的邻居 kernel 层对应的特征图，假设矩形中间的绿色的元素的位置为 (x, y)，那么我需要提取出来进行局部归一化的数据就是周围邻居 kernel 对应的特征图的 (x, y) 位置的 pixel 的值。也就是上面式子中 $a^j_{(x,y)}$  。然后把这些邻居元素的值平方再加和。乘以一个系数 $\alpha$ 再加上一个常数 k (防止分母为 0)，然后 $\beta$ 次幂，最终得到分母。分子就是第 i 个 kernel 对应的特征图的 (x, y) 位置的元素值。</p><p>但是我觉得，这有个假设在于连续通道之间有一定的关系，然而我们知道，<strong>卷积层中连续通道不一定有”连续“意义</strong>，就像全连接层中相邻节点一样。所以这样的领域有待进一步思考！</p><h4 id="3-2-Overlapping-Pooling-覆盖的池化操作"><a href="#3-2-Overlapping-Pooling-覆盖的池化操作" class="headerlink" title="3.2 Overlapping Pooling (覆盖的池化操作)"></a>3.2 Overlapping Pooling (覆盖的池化操作)</h4><p>一般的池化层因为没有重叠，所以 pool size 和 stride 一般是相等的，例如 8 × 8 的一个图像，如果池化层的尺寸是 2 × 2，那么经过池化后的操作得到的图像是 4 × 4 大小的，这种设置叫做不覆盖的池化操作。如果 stride &lt; pool size, 那么就会产生覆盖的池化操作，这种有点类似于 convolutional 化的操作，这样可以得到更准确的结果。甚至在之前讲述的 YOLOv3 的 SPP 模块中，使用 stride 为 1 的 maxpooling，我其实认为获得的是<strong>超像素</strong>！下图以图像超像素为例：</p><blockquote><p>超像素最直观的解释，便是把一些具有相似特性的像素“聚合”起来，形成一个更具有代表性的大“元素”。而这个新的元素，将作为其他图像处理算法的基本单位。</p></blockquote><p><img src="/images/classify/network/alexnet/AlexNet-11.png" alt="img11"></p><p>论文中说，在训练模型过程中，覆盖的池化层更不容易过拟合。在 top-1，和 top-5 中使用覆盖的池化操作分别将 error rate 降低了 0.4% 和 0.3%。</p><h4 id="3-3-Data-Augmentation-数据增强"><a href="#3-3-Data-Augmentation-数据增强" class="headerlink" title="3.3 Data Augmentation (数据增强)"></a>3.3 Data Augmentation (数据增强)</h4><p>文章使用 Random Crop、flip 从而上千倍的扩充训练样本的数量，也使得随机裁剪成为通用方法。具体做法就是首先将图片 resize 到 256 x 256大小，然后从中随机裁剪出 224 x 224 大小的 patch 训练，测试时就从四个角及中心 crop，然后水平翻转图像形成 10 个测试图片，然后对于这 10 个结果取一下平均值（这种方法在后来的去马赛克任务中也有用，将图片顺时针转动四次，然后恢复结果转动回来取平均，其实有点模型集成投票的意思，避免了训练多个模型）。另一种增强为转换RGB 通道的强度，在之后的模型中很少用到。对于该模型，数据增强大约降低了 1% 错误率。</p><h3 id="4-代码"><a href="#4-代码" class="headerlink" title="4. 代码"></a>4. 代码</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-keyword">import</span> torch.nn <span class="hljs-keyword">as</span> nn<br><span class="hljs-keyword">import</span> torch<br><br><br><span class="hljs-keyword">class</span> <span class="hljs-title class_">AlexNet</span>(nn.Module):<br>    <span class="hljs-keyword">def</span> <span class="hljs-title function_">__init__</span>(<span class="hljs-params">self, num_classes=<span class="hljs-number">1000</span>, init_weights=<span class="hljs-literal">False</span></span>):<br>        <span class="hljs-built_in">super</span>(AlexNet, self).__init__()<br>        self.features = nn.Sequential(<br>            nn.Conv2d(<span class="hljs-number">3</span>, <span class="hljs-number">96</span>, kernel_size=<span class="hljs-number">11</span>, stride=<span class="hljs-number">4</span>, padding=<span class="hljs-number">2</span>),  <span class="hljs-comment"># input[3, 224, 224]  output[48, 55, 55]</span><br>            nn.ReLU(inplace=<span class="hljs-literal">True</span>),<br>            nn.MaxPool2d(kernel_size=<span class="hljs-number">3</span>, stride=<span class="hljs-number">2</span>),                  <span class="hljs-comment"># output[96, 27, 27]</span><br>            nn.Conv2d(<span class="hljs-number">96</span>, <span class="hljs-number">256</span>, kernel_size=<span class="hljs-number">5</span>, padding=<span class="hljs-number">2</span>),           <span class="hljs-comment"># output[256, 27, 27]</span><br>            nn.ReLU(inplace=<span class="hljs-literal">True</span>),<br>            nn.MaxPool2d(kernel_size=<span class="hljs-number">3</span>, stride=<span class="hljs-number">2</span>),                  <span class="hljs-comment"># output[256, 13, 13]</span><br>            nn.Conv2d(<span class="hljs-number">256</span>, <span class="hljs-number">384</span>, kernel_size=<span class="hljs-number">3</span>, padding=<span class="hljs-number">1</span>),          <span class="hljs-comment"># output[384, 13, 13]</span><br>            nn.ReLU(inplace=<span class="hljs-literal">True</span>),<br>            nn.Conv2d(<span class="hljs-number">384</span>, <span class="hljs-number">384</span>, kernel_size=<span class="hljs-number">3</span>, padding=<span class="hljs-number">1</span>),          <span class="hljs-comment"># output[384, 13, 13]</span><br>            nn.ReLU(inplace=<span class="hljs-literal">True</span>),<br>            nn.Conv2d(<span class="hljs-number">384</span>, <span class="hljs-number">256</span>, kernel_size=<span class="hljs-number">3</span>, padding=<span class="hljs-number">1</span>),          <span class="hljs-comment"># output[256, 13, 13]</span><br>            nn.ReLU(inplace=<span class="hljs-literal">True</span>),<br>            nn.MaxPool2d(kernel_size=<span class="hljs-number">3</span>, stride=<span class="hljs-number">2</span>),                  <span class="hljs-comment"># output[256, 6, 6]</span><br>        )<br>        self.classifier = nn.Sequential(<br>            nn.Dropout(p=<span class="hljs-number">0.5</span>),<br>            nn.Linear(<span class="hljs-number">256</span> * <span class="hljs-number">6</span> * <span class="hljs-number">6</span>, <span class="hljs-number">4096</span>),<br>            nn.ReLU(inplace=<span class="hljs-literal">True</span>),<br>            nn.Dropout(p=<span class="hljs-number">0.5</span>),<br>            nn.Linear(<span class="hljs-number">4096</span>, <span class="hljs-number">4096</span>),<br>            nn.ReLU(inplace=<span class="hljs-literal">True</span>),<br>            nn.Linear(<span class="hljs-number">4096</span>, num_classes),<br>        )<br>        <span class="hljs-keyword">if</span> init_weights:<br>            self._initialize_weights()<br><br>    <span class="hljs-keyword">def</span> <span class="hljs-title function_">forward</span>(<span class="hljs-params">self, x</span>):<br>        x = self.features(x)<br>        x = torch.flatten(x, start_dim=<span class="hljs-number">1</span>)<br>        x = self.classifier(x)<br>        <span class="hljs-keyword">return</span> x<br><br>    <span class="hljs-keyword">def</span> <span class="hljs-title function_">_initialize_weights</span>(<span class="hljs-params">self</span>):<br>        <span class="hljs-keyword">for</span> m <span class="hljs-keyword">in</span> self.modules():<br>            <span class="hljs-keyword">if</span> <span class="hljs-built_in">isinstance</span>(m, nn.Conv2d):<br>                nn.init.kaiming_normal_(m.weight, mode=<span class="hljs-string">&#x27;fan_out&#x27;</span>, nonlinearity=<span class="hljs-string">&#x27;relu&#x27;</span>)<br>                <span class="hljs-keyword">if</span> m.bias <span class="hljs-keyword">is</span> <span class="hljs-keyword">not</span> <span class="hljs-literal">None</span>:<br>                    nn.init.constant_(m.bias, <span class="hljs-number">0</span>)<br>            <span class="hljs-keyword">elif</span> <span class="hljs-built_in">isinstance</span>(m, nn.Linear):<br>                nn.init.normal_(m.weight, <span class="hljs-number">0</span>, <span class="hljs-number">0.01</span>)<br>                nn.init.constant_(m.bias, <span class="hljs-number">0</span>)<br><br></code></pre></td></tr></table></figure>]]></content>
     
     
     <categories>
@@ -46,7 +426,32 @@
       
       <category>图像分类</category>
       
-      <category>基础知识</category>
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>原创</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>深度学习之图像分类（四）-- VGGNet网络结构及感受野计算</title>
+    <link href="/2024/03/28/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B9%8B%E5%9B%BE%E5%83%8F%E5%88%86%E7%B1%BB%EF%BC%884%EF%BC%89--%20VGGNet%E7%BD%91%E7%BB%9C%E7%BB%93%E6%9E%84%E5%8F%8A%E6%84%9F%E5%8F%97%E9%87%8E%E8%AE%A1%E7%AE%97/"/>
+    <url>/2024/03/28/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B9%8B%E5%9B%BE%E5%83%8F%E5%88%86%E7%B1%BB%EF%BC%884%EF%BC%89--%20VGGNet%E7%BD%91%E7%BB%9C%E7%BB%93%E6%9E%84%E5%8F%8A%E6%84%9F%E5%8F%97%E9%87%8E%E8%AE%A1%E7%AE%97/</url>
+    
+    <content type="html"><![CDATA[<h2 id="深度学习之图像分类（四）VGGNet网络结构及感受野计算"><a href="#深度学习之图像分类（四）VGGNet网络结构及感受野计算" class="headerlink" title="深度学习之图像分类（四）VGGNet网络结构及感受野计算"></a>深度学习之图像分类（四）VGGNet网络结构及感受野计算</h2><p>本节学习VGGNet网络结构以及感受野计算，学习视频源于 <a href="https://www.bilibili.com/video/BV1q7411T7Y6">Bilibili</a>，部分描述参考 <a href="https://zhuanlan.zhihu.com/p/73794404">知乎专栏</a>。</p><p><img src="/images/classify/network/vggnet/vgg-0.png" alt="img0"></p><h3 id="1-前言"><a href="#1-前言" class="headerlink" title="1. 前言"></a>1. 前言</h3><p>VGGNet 是 2014 年牛津大学著名研究组 VGG(Visual Geometry Group) 提出，斩获该年 ImageNet 竞赛中 Localization Task 第一名和 Classification Task 第二名 (第一名为 GoogLeNet)。原始论文为 <a href="https://arxiv.org/pdf/1409.1556.pdf(2014)">Very deep convolutional networks for large-scale image recognition</a>。</p><p>该论文在当时最大的亮点是：通过堆叠 $3 \times 3$ 的卷积核来代替大尺度卷积核，并减少参数量</p><ul><li>大卷积核，例如 AlexNet 第一层的 $11 \times 11$，参数量大，且难学好</li><li>多个 $3 \times 3$ 的卷积核感受野和一个大的卷积核感受野一致，但是更好学，且参数量更少<ul><li>两个 $3 \times 3$ 的卷积核替代一个 $5 \times 5$ 的卷积核</li><li>三个 $3 \times 3$ 的卷积核替代一个 $7 \times 7$ 的卷积核</li></ul></li><li>真实人的视网膜初级结构获取的底层特征并非 $3 \times 3$ 领域，而是更大的例如 $11 \times 11$， $17 \times 17$ 等尺寸</li></ul><p>下图左边的表格截取于原论文，作者给出了六个不同的配置，包括比较 LRN（局部响应归一化）、不同卷积核尺寸等。一般而言常用的是 D 配置，即 VGG-16，16 表示 13 个卷积层以及 3 个全连接层。</p><p><img src="/images/classify/network/vggnet/vgg-1.png" alt="img1"></p><p>1）A和A-LRN对比：分析LRN在网络中的效果</p><p>2）A和B对比：分析在网络靠近输入部分增加卷积层数的效果</p><p>3）B和C对比：分析在网络靠近输出部分增加卷积层数的效果</p><p>4）C和D对比：分析1X1卷积核和3X3卷积核的对比效果</p><p>5）D和E对比：分析在网络靠近输出部分增加卷积层数的效果（这个和3）的作用有点像，只是网络进一步加深）</p><p>各个网络的对比结果如下：</p><p><img src="/images/classify/network/vggnet/vgg-00.png" alt="img00"></p><p>从这个表中，我们可以对上面5个对比思路下结论：</p><p>1）A和A-LRN对比：精度损失0.1%，可以认为精度变化不大，但是LRN操作会增大计算量，所以作者认为在网络中添加LRN意义不大</p><p>2）A和B对比：top-1提高0.9%，说明在靠近输入部分增加深度可以提高精度</p><p>3）B和C对比：top-1提高0.6%，说明在靠近输出部分增加深度也可以提高精度</p><p>4）C和D对比：top-1提高1.1%，说明3X3卷积核的效果要明显由于1X1卷积核的效果</p><p>5）D和E对比：top-1下降0.3%，这个我解释不了，不清楚是不是因为网络更深以后，更容易出现过拟合</p><h3 id="2-CNN感受野"><a href="#2-CNN感受野" class="headerlink" title="2. CNN感受野"></a>2. CNN感受野</h3><p>在卷积神经网络中，决定某一层输出结果中一个元素所对应的输入层的区域大小，被称作感受野(receptive field)。通俗而言，输出 feature map 上的一个单元对应输入层上的区域大小。</p><p><img src="/images/classify/network/vggnet/vgg-2.png" alt="img2"></p><p>让我们来看一个例子，下图左边最下面是一个 $9 \times 9 \times 1$ 的特征矩阵，经过第一个卷积层（卷积核大小为 $3 \times 3$ ，步距为 2）。然后再通过一个最大池化下采样操作，（卷积核大小为 $2 \times 2$ ，步距为 2），最后得到的特征图大小为  $2 \times 2 \times 1$ 。从图中可以看出，感受野大小为 $5 \times 5$。</p><p><img src="/images/classify/network/vggnet/vgg-3.png" alt="img3"></p><p>下图给出了感受野大小的计算公式：<br>$$<br>F(i) &#x3D; (F(i+1)-1) \times Stride + Ksize<br>$$<br>其中 $F(i)$ 为第 $i$ 层的感受野，Stride 为第 $i$ 层的步距，Ksize 为卷积核或者池化层尺寸。</p><p><img src="/images/classify/network/vggnet/vgg-4.png" alt="img4"></p><p>在 VGGNet 论文中作者说：三个 $3 \times 3$ 的卷积核替代一个 $7 \times 7$ 的卷积核，卷积核步距为 1。我们进行简单的计算：</p><figure class="highlight txt"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs txt">Feature map: F = 1<br>Conv3x3(3) : F = (1 - 1) x 1 + 3 = 3<br>Conv3x3(2) : F = (3 - 1) x 1 + 3 = 5<br>Conv3x3(1) : F = (5 - 1) x 1 + 3 = 7<br></code></pre></td></tr></table></figure><p>让我们来比较一下使用  $7 \times 7$ 的卷积核所需要的参数以及使用三个 $3 \times 3$ 的卷积核所需要的参数，假设输入输出通道都为 $C$：</p><ul><li><p>$7 \times 7 \times C \times C &#x3D; 49C^2$</p></li><li><p>$3 \times (3 \times 3 \times C \times C) &#x3D; 27C^2$</p></li><li><p>$27 &#x2F; 49 &#x3D; 0.551$</p></li></ul><p>注意，这里没有考虑 bias 参数。可见在感受野相等的情况下， 使用三个 $3 \times 3$ 的卷积核替代一个 $7 \times 7$ 的卷积核仅有一半的参数量。</p><h3 id="3-VGG网络结构"><a href="#3-VGG网络结构" class="headerlink" title="3. VGG网络结构"></a>3. VGG网络结构</h3><p>以 VGG16 为例进行讲解，对应配置为 D。表中卷积 conv 默认的步距 stride &#x3D; 1，padding &#x3D; 1；最大池化 maxpool 的 kernel size &#x3D; 2，步距 stride &#x3D; 2。左下角图对应的就是 VGG16 的网络结构图。</p><p><img src="/images/classify/network/vggnet/vgg-5.png" alt="img5"></p><p>最终网络参数量如图所示：</p><p><img src="/images/classify/network/vggnet/vgg-6.png" alt="img6"></p><figure class="highlight txt"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><code class="hljs txt">INPUT:     [224x224x3]    memory:  224*224*3=150K    weights: 0<br>CONV3-64:  [224x224x64]   memory:  224*224*64=3.2M   weights: (3*3*3)*64 = 1,728<br>CONV3-64:  [224x224x64]   memory:  224*224*64=3.2M   weights: (3*3*64)*64 = 36,864<br>POOL2:     [112x112x64]   memory:  112*112*64=800K   weights: 0<br>CONV3-128: [112x112x128]  memory:  112*112*128=1.6M  weights: (3*3*64)*128 = 73,728<br>CONV3-128: [112x112x128]  memory:  112*112*128=1.6M  weights: (3*3*128)*128 = 147,456<br>POOL2:     [56x56x128]    memory:  56*56*128=400K    weights: 0<br>CONV3-256: [56x56x256]    memory:  56*56*256=800K    weights: (3*3*128)*256 = 294,912<br>CONV3-256: [56x56x256]    memory:  56*56*256=800K    weights: (3*3*256)*256 = 589,824<br>CONV3-256: [56x56x256]    memory:  56*56*256=800K    weights: (3*3*256)*256 = 589,824<br>POOL2:     [28x28x256]    memory:  28*28*256=200K    weights: 0<br>CONV3-512: [28x28x512]    memory:  28*28*512=400K    weights: (3*3*256)*512 = 1,179,648<br>CONV3-512: [28x28x512]    memory:  28*28*512=400K    weights: (3*3*512)*512 = 2,359,296<br>CONV3-512: [28x28x512]    memory:  28*28*512=400K    weights: (3*3*512)*512 = 2,359,296<br>POOL2:     [14x14x512]    memory:  14*14*512=100K    weights: 0<br>CONV3-512: [14x14x512]    memory:  14*14*512=100K    weights: (3*3*512)*512 = 2,359,296<br>CONV3-512: [14x14x512]    memory:  14*14*512=100K    weights: (3*3*512)*512 = 2,359,296<br>CONV3-512: [14x14x512]    memory:  14*14*512=100K    weights: (3*3*512)*512 = 2,359,296<br>POOL2:     [7x7x512]      memory:  7*7*512=25K       weights: 0<br>FC:        [1x1x4096]     memory:  4096          weights: 7*7*512*4096 = 102,760,448<br>FC:        [1x1x4096]     memory:  4096          weights: 4096*4096 = 16,777,216<br>FC:        [1x1x1000]     memory:  1000          weights: 4096*1000 = 4,096,000<br><br>TOTAL memory: 24M * 4 bytes ~= 93MB / image (only forward! ~*2 for bwd)<br>TOTAL params: 138M parameters<br></code></pre></td></tr></table></figure><p>VGGNet 使用了 Multi-Scale 的方法进行数据增强，将原始图像缩放到不同尺寸 $S$，然后再随机裁切 $224 \times 224$ 的图片，这样能增加很多数据量，对于防止模型过拟合有很不错的效果。实践中，作者令 $S$ 在 [256,512] 这个区间内取值，使用 Multi-Scale 获得多个版本的数据，并将多个版本的数据合在一起进行训练。</p><p><img src="/images/classify/network/vggnet/vgg-7.png" alt="img7"></p><h3 id="4-代码"><a href="#4-代码" class="headerlink" title="4. 代码"></a>4. 代码</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-keyword">import</span> torch.nn <span class="hljs-keyword">as</span> nn<br><span class="hljs-keyword">import</span> torch<br><span class="hljs-keyword">import</span> torch.utils.model_zoo <span class="hljs-keyword">as</span> model_zoo<br><br><span class="hljs-comment"># official pretrain weights</span><br>model_urls = &#123;<br>    <span class="hljs-string">&#x27;vgg11&#x27;</span>: <span class="hljs-string">&#x27;https://download.pytorch.org/models/vgg11-bbd30ac9.pth&#x27;</span>,<br>    <span class="hljs-string">&#x27;vgg13&#x27;</span>: <span class="hljs-string">&#x27;https://download.pytorch.org/models/vgg13-c768596a.pth&#x27;</span>,<br>    <span class="hljs-string">&#x27;vgg16&#x27;</span>: <span class="hljs-string">&#x27;https://download.pytorch.org/models/vgg16-397923af.pth&#x27;</span>,<br>    <span class="hljs-string">&#x27;vgg19&#x27;</span>: <span class="hljs-string">&#x27;https://download.pytorch.org/models/vgg19-dcbb9e9d.pth&#x27;</span><br>&#125;<br><br><br><span class="hljs-keyword">class</span> <span class="hljs-title class_">VGG</span>(nn.Module):<br>    <span class="hljs-keyword">def</span> <span class="hljs-title function_">__init__</span>(<span class="hljs-params">self, features, num_classes=<span class="hljs-number">1000</span>, init_weights=<span class="hljs-literal">False</span></span>):<br>        <span class="hljs-built_in">super</span>(VGG, self).__init__()<br>        self.features = features<br>        self.classifier = nn.Sequential(<br>            nn.Linear(<span class="hljs-number">512</span>*<span class="hljs-number">7</span>*<span class="hljs-number">7</span>, <span class="hljs-number">4096</span>),<br>            nn.ReLU(<span class="hljs-literal">True</span>),<br>            nn.Dropout(p=<span class="hljs-number">0.5</span>),<br>            nn.Linear(<span class="hljs-number">4096</span>, <span class="hljs-number">4096</span>),<br>            nn.ReLU(<span class="hljs-literal">True</span>),<br>            nn.Dropout(p=<span class="hljs-number">0.5</span>),<br>            nn.Linear(<span class="hljs-number">4096</span>, num_classes)<br>        )<br>        <span class="hljs-keyword">if</span> init_weights:<br>            self._initialize_weights()<br><br>    <span class="hljs-keyword">def</span> <span class="hljs-title function_">forward</span>(<span class="hljs-params">self, x</span>):<br>        <span class="hljs-comment"># N x 3 x 224 x 224</span><br>        x = self.features(x)<br>        <span class="hljs-comment"># N x 512 x 7 x 7</span><br>        x = torch.flatten(x, start_dim=<span class="hljs-number">1</span>)<br>        <span class="hljs-comment"># N x 512*7*7</span><br>        x = self.classifier(x)<br>        <span class="hljs-keyword">return</span> x<br><br>    <span class="hljs-keyword">def</span> <span class="hljs-title function_">_initialize_weights</span>(<span class="hljs-params">self</span>):<br>        <span class="hljs-keyword">for</span> m <span class="hljs-keyword">in</span> self.modules():<br>            <span class="hljs-keyword">if</span> <span class="hljs-built_in">isinstance</span>(m, nn.Conv2d):<br>                <span class="hljs-comment"># nn.init.kaiming_normal_(m.weight, mode=&#x27;fan_out&#x27;, nonlinearity=&#x27;relu&#x27;)</span><br>                nn.init.xavier_uniform_(m.weight)<br>                <span class="hljs-keyword">if</span> m.bias <span class="hljs-keyword">is</span> <span class="hljs-keyword">not</span> <span class="hljs-literal">None</span>:<br>                    nn.init.constant_(m.bias, <span class="hljs-number">0</span>)<br>            <span class="hljs-keyword">elif</span> <span class="hljs-built_in">isinstance</span>(m, nn.Linear):<br>                nn.init.xavier_uniform_(m.weight)<br>                <span class="hljs-comment"># nn.init.normal_(m.weight, 0, 0.01)</span><br>                nn.init.constant_(m.bias, <span class="hljs-number">0</span>)<br><br><br><span class="hljs-keyword">def</span> <span class="hljs-title function_">make_features</span>(<span class="hljs-params">cfg: <span class="hljs-built_in">list</span></span>):<br>    layers = []<br>    in_channels = <span class="hljs-number">3</span><br>    <span class="hljs-keyword">for</span> v <span class="hljs-keyword">in</span> cfg:<br>        <span class="hljs-keyword">if</span> v == <span class="hljs-string">&quot;M&quot;</span>:<br>            layers += [nn.MaxPool2d(kernel_size=<span class="hljs-number">2</span>, stride=<span class="hljs-number">2</span>)]<br>        <span class="hljs-keyword">else</span>:<br>            conv2d = nn.Conv2d(in_channels, v, kernel_size=<span class="hljs-number">3</span>, padding=<span class="hljs-number">1</span>)<br>            layers += [conv2d, nn.ReLU(<span class="hljs-literal">True</span>)]<br>            in_channels = v<br>    <span class="hljs-keyword">return</span> nn.Sequential(*layers)<br><br><br>cfgs = &#123;<br>    <span class="hljs-string">&#x27;vgg11&#x27;</span>: [<span class="hljs-number">64</span>, <span class="hljs-string">&#x27;M&#x27;</span>, <span class="hljs-number">128</span>, <span class="hljs-string">&#x27;M&#x27;</span>, <span class="hljs-number">256</span>, <span class="hljs-number">256</span>, <span class="hljs-string">&#x27;M&#x27;</span>, <span class="hljs-number">512</span>, <span class="hljs-number">512</span>, <span class="hljs-string">&#x27;M&#x27;</span>, <span class="hljs-number">512</span>, <span class="hljs-number">512</span>, <span class="hljs-string">&#x27;M&#x27;</span>],<br>    <span class="hljs-string">&#x27;vgg13&#x27;</span>: [<span class="hljs-number">64</span>, <span class="hljs-number">64</span>, <span class="hljs-string">&#x27;M&#x27;</span>, <span class="hljs-number">128</span>, <span class="hljs-number">128</span>, <span class="hljs-string">&#x27;M&#x27;</span>, <span class="hljs-number">256</span>, <span class="hljs-number">256</span>, <span class="hljs-string">&#x27;M&#x27;</span>, <span class="hljs-number">512</span>, <span class="hljs-number">512</span>, <span class="hljs-string">&#x27;M&#x27;</span>, <span class="hljs-number">512</span>, <span class="hljs-number">512</span>, <span class="hljs-string">&#x27;M&#x27;</span>],<br>    <span class="hljs-string">&#x27;vgg16&#x27;</span>: [<span class="hljs-number">64</span>, <span class="hljs-number">64</span>, <span class="hljs-string">&#x27;M&#x27;</span>, <span class="hljs-number">128</span>, <span class="hljs-number">128</span>, <span class="hljs-string">&#x27;M&#x27;</span>, <span class="hljs-number">256</span>, <span class="hljs-number">256</span>, <span class="hljs-number">256</span>, <span class="hljs-string">&#x27;M&#x27;</span>, <span class="hljs-number">512</span>, <span class="hljs-number">512</span>, <span class="hljs-number">512</span>, <span class="hljs-string">&#x27;M&#x27;</span>, <span class="hljs-number">512</span>, <span class="hljs-number">512</span>, <span class="hljs-number">512</span>, <span class="hljs-string">&#x27;M&#x27;</span>],<br>    <span class="hljs-string">&#x27;vgg19&#x27;</span>: [<span class="hljs-number">64</span>, <span class="hljs-number">64</span>, <span class="hljs-string">&#x27;M&#x27;</span>, <span class="hljs-number">128</span>, <span class="hljs-number">128</span>, <span class="hljs-string">&#x27;M&#x27;</span>, <span class="hljs-number">256</span>, <span class="hljs-number">256</span>, <span class="hljs-number">256</span>, <span class="hljs-number">256</span>, <span class="hljs-string">&#x27;M&#x27;</span>, <span class="hljs-number">512</span>, <span class="hljs-number">512</span>, <span class="hljs-number">512</span>, <span class="hljs-number">512</span>, <span class="hljs-string">&#x27;M&#x27;</span>, <span class="hljs-number">512</span>, <span class="hljs-number">512</span>, <span class="hljs-number">512</span>, <span class="hljs-number">512</span>, <span class="hljs-string">&#x27;M&#x27;</span>],<br>&#125;<br><br><br><span class="hljs-keyword">def</span> <span class="hljs-title function_">vgg</span>(<span class="hljs-params">model_name=<span class="hljs-string">&quot;vgg16&quot;</span>, **kwargs</span>):<br>    <span class="hljs-keyword">assert</span> model_name <span class="hljs-keyword">in</span> cfgs, <span class="hljs-string">&quot;Warning: model number &#123;&#125; not in cfgs dict!&quot;</span>.<span class="hljs-built_in">format</span>(model_name)<br>    cfg = cfgs[model_name]<br><br>    model = VGG(make_features(cfg), **kwargs)<br>    <br>    <span class="hljs-comment"># load ImageNet params</span><br>    state_dic = model_zoo.load_url(model_urls[model_name])<br>    del_key = []<br>    <span class="hljs-keyword">for</span> key, _ <span class="hljs-keyword">in</span> state_dic.items():<br>        <span class="hljs-keyword">if</span> <span class="hljs-string">&quot;classifier&quot;</span> <span class="hljs-keyword">in</span> key:<br>            del_key.append(key)<br>    <br>    <span class="hljs-keyword">for</span> key <span class="hljs-keyword">in</span> del_key:<br>        <span class="hljs-keyword">del</span> state_dic[key]<br>    missing_keys, unexpected_keys = model.load_state_dict(state_dic, strict=<span class="hljs-literal">False</span>)<br>    <span class="hljs-keyword">return</span> model<br></code></pre></td></tr></table></figure>]]></content>
+    
+    
+    <categories>
+      
+      <category>深度学习</category>
+      
+      <category>图像分类</category>
       
     </categories>
     
